@@ -1,0 +1,73 @@
+Blue Line
+=========
+Chennai Airport, சென்னை விமான நிலையம்
+Meenambakkam Metro, மீனம்பாக்கம் மெட்ரோ
+Nanganallur Road, நங்கநல்லூர் சாலை
+Arignar Anna Alandur Metro, அறிஞர் அண்ணா ஆலந்தூர் மெட்ரோ
+Guindy Metro, கிண்டி மெட்ரோ
+Little Mount, சின்ன மலை
+Saidapet, சைதாபேட்டை மெட்ரோ
+Nandanam, நந்தனம்
+Teynampet, தேனாம்பேட்டை
+AG-DMS, ஏ.ஜி.டி.எம்.எஸ்
+Thousand Lights, ஆயிரம் விளக்கு
+LIC, எல்.ஐ.சி
+Government Estate, அரசினர் தோட்டம்
+MG Ramachandran Central Metro, எம்.ஜி. இராமசந்திரன் சென்ட்ரல் மெட்ரோ
+Hightcourt, உயர்நீதிமன்றம்
+Mannadi, மண்ணடி
+Washermanpet Metro, வண்ணாரப்பேட்டை மெட்ரோ
+Sir Thiyagaraya College Metro, சர் தியாகராயா கல்லூரி மெட்ரோ
+Tondiarpet Metro, தண்டையார்பேட்டை மெட்ரோ
+New Washermanpet Metro, புது வண்ணராப்பேட்டை மெட்ரோ
+Tollgate Metro, சுங்கச்சாவடி மெட்ரோ
+Kaladipet Metro, காலடிப்பேட்டை மெட்ரோ
+Thiruvottriyur Theradi Metro, திருவெற்றியூர் தேரடி மெட்ரோ
+Thiruvottriyur Metro, திருவெற்றியூர் மெட்ரோ
+Wimco Nagar Metro, விம்கோ நகர் மெட்ரோ
+Wimco Nagar Depot Metro, விம்கோ நகர் பணிமனை மெட்ரோ
+
+Green Line
+==========
+St. Thomas Mount Metro, பரங்கிமலை மெட்ரோ
+Arignar Anna Alandur Metro, அறிஞர் அண்ணா ஆலந்தூர் மெட்ரோ
+Ekkattuthangal, ஈக்காட்டுதாங்கல்
+Ashok Nagar, அசோக் நகர்
+Vadapalani, வடபழனி
+Arumbakkam, அரும்பாக்கம்
+Puratchi Thalaivi Dr.J.Jayalalitha Koyambedu CMBT Metro, புரட்சி தலைவி டாக்டர் ஜெ. ஜெயலலிதா புறநகர் பேருந்து நிலையம் மெட்ரோ
+Koyambedu, கோயம்பேடு
+Thirumangalam, திருமங்கலம்
+Anna Nagar Tower, அண்ணாநகர் பூங்கா கோபுரம்
+Anna Nagar East, அண்ணாநகர் கிழக்கு
+Shenoy Nagar, செனாய் நகர்
+Pachaiyappa's College, பச்சையப்பன் கல்லூரி
+Kilpauk, கீழ்பாக்கம்
+Nehru Park, நேரு பூங்கா
+Egmore, எழும்பூர்
+MG Ramachandran Central Metro, எம்.ஜி. இராமசந்திரன் சென்ட்ரல் மெட்ரோ
+
+The green line starting from St. Thomas Mount Metro converges with Blue Line from Airport at Alandur station.
+A train starting from Airport may be either destined to Wimco Nagar Depot Metro or MG Ramachandran Central Metro.
+A train starting from St. Thomas Mount is always destined to MG Ramachandran Central Metro.
+A train starting from MG Ramachandran Central Metro may be destined to three locations Wimco Nagar Depot Metro or St. Thomas Mount Metro or Chennai Airport.
+A train starting from Wimco Nagar Depot Metro is always destined to Chennai Airport.
+As per the initial design blue line and green line were separate lines. But the designers looked at the over head of Airport passengers have to change over in Alandur aiport to reach to the bus stations and railway stations. So they converged the lines in Alandur, which gives the possibility for Aiport passengers to reach the bus stations and railways station without having the need for change over in Alandur station, but did not visualize the confusions the passengers will face when taking up their journey in these stations.
+The objective of this project is to provide a clear journey path from one metro station to another.
+The key inputs from the passenger will be the starting and ending metro stations, based on which it should clearly convey the journey path including the escalators and lifts that they will have to take.
+In analysis.md, there are instructions on the difficulties in Alandur station to switch over from one destination to another.
+
+Alandur metro station passenger comments
+Difficult to identify the platform when interchanging the trains.. announcement not audible in all the platforms and trains to particular route is not always coming in the same platform.. missed a train just because the train came in a different platform.
+
+Confusion prevails. No signages or person to inform which platform to go for your destination
+
+Changing lines is very inconvenient. You have to go to ground floor.
+
+Very bad design, total inconvenience  transit
+
+There's no proper indicators for passengers changing services. Neither there's is any prominent indicators showing platform numbers in the platform entrance. Lift simply says lower platform. Who to tell that platform 2 lower. Rather they can show the platform numbers in the lifts.
+
+Very well maintained station but the route map should be displayed in easily accessible places so the passenger know he is in the correct platform. Also the notice boards for lifts and stairs could be made prominent
+
+Clean & good but there is no proper guidance for station details... Everyone is getting confuse until boarding to train... Because of four platform everyone is confusing... Please provide some station list in every platforms (2 years ago)
