@@ -1,0 +1,209 @@
+{
+  "stations": [
+    {
+      "name": "Wimco Nagar Depot Metro",
+      "lines": ["Blue"],
+      "connections": ["Wimco Nagar Metro"]
+    },
+    {
+      "name": "Wimco Nagar Metro",
+      "lines": ["Blue"],
+      "connections": ["Wimco Nagar Depot Metro", "Thiruvottriyur Metro"]
+    },
+    {
+      "name": "Thiruvottriyur Metro",
+      "lines": ["Blue"],
+      "connections": ["Wimco Nagar Metro", "Thiruvottriyur Theradi Metro"]
+    },
+    {
+      "name": "Thiruvottriyur Theradi Metro",
+      "lines": ["Blue"],
+      "connections": ["Thiruvottriyur Metro", "Kaladipet Metro"]
+    },
+    {
+      "name": "Kaladipet Metro",
+      "lines": ["Blue"],
+      "connections": ["Thiruvottriyur Theradi Metro", "Tollgate Metro"]
+    },
+    {
+      "name": "Tollgate Metro",
+      "lines": ["Blue"],
+      "connections": ["Kaladipet Metro", "New Washermanpet Metro"]
+    },
+    {
+      "name": "New Washermanpet Metro",
+      "lines": ["Blue"],
+      "connections": ["Tollgate Metro", "Tondiarpet Metro"]
+    },
+    {
+      "name": "Tondiarpet Metro",
+      "lines": ["Blue"],
+      "connections": ["New Washermanpet Metro", "Sir Thiyagaraya College Metro"]
+    },
+    {
+      "name": "Sir Thiyagaraya College Metro",
+      "lines": ["Blue"],
+      "connections": ["Tondiarpet Metro", "Washermanpet Metro"]
+    },
+    {
+      "name": "Washermanpet Metro",
+      "lines": ["Blue"],
+      "connections": ["Sir Thiyagaraya College Metro", "Mannadi"]
+    },
+    {
+      "name": "Mannadi",
+      "lines": ["Blue"],
+      "connections": ["Washermanpet Metro", "Highcourt"]
+    },
+    {
+      "name": "Highcourt",
+      "lines": ["Blue"],
+      "connections": ["Mannadi", "MG Ramachandran Central Metro"]
+    },
+    {
+      "name": "MG Ramachandran Central Metro",
+      "lines": ["Blue", "Green"],
+      "connections": ["Highcourt", "Government Estate", "Egmore"]
+    },
+    {
+      "name": "Government Estate",
+      "lines": ["Blue"],
+      "connections": ["MG Ramachandran Central Metro", "LIC"]
+    },
+    {
+      "name": "LIC",
+      "lines": ["Blue"],
+      "connections": ["Government Estate", "Thousand Lights"]
+    },
+    {
+      "name": "Egmore",
+      "lines": ["Green"],
+      "connections": ["MG Ramachandran Central Metro", "Nehru Park"]
+    },
+    {
+      "name": "Nehru Park",
+      "lines": ["Green"],
+      "connections": ["Egmore", "Kilpauk"]
+    },
+    {
+      "name": "Kilpauk",
+      "lines": ["Green"],
+      "connections": ["Nehru Park", "Pachaiyappa's College"]
+    },
+    {
+      "name": "Pachaiyappa's College",
+      "lines": ["Green"],
+      "connections": ["Kilpauk", "Shenoy Nagar"]
+    },
+    {
+      "name": "Shenoy Nagar",
+      "lines": ["Green"],
+      "connections": ["Pachaiyappa's College", "Anna Nagar East"]
+    },
+    {
+      "name": "Anna Nagar East",
+      "lines": ["Green"],
+      "connections": ["Shenoy Nagar", "Anna Nagar Tower"]
+    },
+    {
+      "name": "Anna Nagar Tower",
+      "lines": ["Green"],
+      "connections": ["Anna Nagar East", "Thirumangalam"]
+    },
+    {
+      "name": "Thirumangalam",
+      "lines": ["Green"],
+      "connections": ["Anna Nagar Tower", "Koyambedu"]
+    },
+    {
+      "name": "Koyambedu",
+      "lines": ["Green"],
+      "connections": ["Thirumangalam", "Puratchi Thalaivi Dr.J.Jayalalitha Koyambedu CMBT Metro"]
+    },
+    {
+      "name": "Puratchi Thalaivi Dr.J.Jayalalitha Koyambedu CMBT Metro",
+      "lines": ["Green"],
+      "connections": ["Koyambedu", "Arumbakkam"]
+    },
+    {
+      "name": "Arumbakkam",
+      "lines": ["Green"],
+      "connections": ["Puratchi Thalaivi Dr.J.Jayalalitha Koyambedu CMBT Metro", "Vadapalani"]
+    },
+    {
+      "name": "Vadapalani",
+      "lines": ["Green"],
+      "connections": ["Arumbakkam", "Ashok Nagar"]
+    },
+    {
+      "name": "Ashok Nagar",
+      "lines": ["Green"],
+      "connections": ["Vadapalani", "Ekkattuthangal"]
+    },
+    {
+      "name": "Ekkattuthangal",
+      "lines": ["Green"],
+      "connections": ["Ashok Nagar", "Arignar Anna Alandur Metro"]
+    },
+    {
+      "name": "Arignar Anna Alandur Metro",
+      "lines": ["Blue", "Green"],
+      "connections": ["Guindy Metro", "Nanganallur Road", "Ekkattuthangal", "St. Thomas Mount Metro"]
+    },
+    {
+      "name": "St. Thomas Mount Metro",
+      "lines": ["Green"],
+      "connections": ["Arignar Anna Alandur Metro"]
+    },
+    {
+      "name": "Thousand Lights",
+      "lines": ["Blue"],
+      "connections": ["LIC", "AG-DMS"]
+    },
+    {
+      "name": "AG-DMS",
+      "lines": ["Blue"],
+      "connections": ["Thousand Lights", "Teynampet"]
+    },
+    {
+      "name": "Teynampet",
+      "lines": ["Blue"],
+      "connections": ["AG-DMS", "Nandanam"]
+    },
+    {
+      "name": "Nandanam",
+      "lines": ["Blue"],
+      "connections": ["Teynampet", "Saidapet"]
+    },
+    {
+      "name": "Saidapet",
+      "lines": ["Blue"],
+      "connections": ["Nandanam", "Little Mount"]
+    },
+    {
+      "name": "Little Mount",
+      "lines": ["Blue"],
+      "connections": ["Saidapet", "Guindy Metro"]
+    },
+    {
+      "name": "Guindy Metro",
+      "lines": ["Blue"],
+      "connections": ["Little Mount", "Arignar Anna Alandur Metro"]
+    },
+    {
+      "name": "Nanganallur Road",
+      "lines": ["Blue"],
+      "connections": ["Arignar Anna Alandur Metro", "Meenambakkam Metro"]
+    },
+    {
+      "name": "Meenambakkam Metro",
+      "lines": ["Blue"],
+      "connections": ["Nanganallur Road", "Chennai Airport"]
+    },
+    {
+      "name": "Chennai Airport",
+      "lines": ["Blue"],
+      "connections": ["Meenambakkam Metro"]
+    }
+  ]
+}
