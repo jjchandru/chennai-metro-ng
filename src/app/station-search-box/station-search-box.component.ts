@@ -1,4 +1,4 @@
-import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter, OnChanges, ViewChild, ElementRef } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
 interface Station {
@@ -11,15 +11,16 @@ interface Station {
   templateUrl: './station-search-box.component.html',
   styleUrls: ['./station-search-box.component.css']
 })
-export class StationSearchBoxComponent implements OnInit {
+export class StationSearchBoxComponent implements OnInit, OnChanges {
   @Input() label: string = '';
+  @Input() selectedStation: Station | null = null;
   @Output() stationSelected = new EventEmitter<Station | null>();
+  @ViewChild('searchInput', { static: false }) searchInput!: ElementRef;
 
   showPopup = false;
   stations: Station[] = [];
   filteredStations: Station[] = [];
   searchText = '';
-  selectedStation: Station | null = null;
 
   constructor(private http: HttpClient) {}
 
@@ -30,10 +31,25 @@ export class StationSearchBoxComponent implements OnInit {
     });
   }
 
+  ngOnChanges(): void {
+    // If selectedStation input changes, update local selectedStation
+    this.selectedStation = this.selectedStation;
+  }
+
   openPopup() {
     this.showPopup = true;
     this.searchText = '';
     this.filteredStations = this.stations;
+    // Focus the search input after the view is updated
+    setTimeout(() => {
+      if (this.searchInput && this.searchInput.nativeElement) {
+        this.searchInput.nativeElement.focus();
+      }
+    }, 100);
+  }
+
+  onSelectedStationBoxClick() {
+    this.openPopup();
   }
 
   closePopup() {

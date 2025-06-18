@@ -1,15 +1,5 @@
-<div class="container py-4">
-  <div class="app-title mb-2">சென்னை மெட்ரோ வழிகாட்டி</div>
-  <app-station-search-box 
-    label="From Station" 
-    (stationSelected)="onStationSelected($event)">
-  </app-station-search-box>
-
-  <div *ngIf="selectedStation" class="mt-3">
-    <div class="alert alert-info">
-      <strong>Selected Station:</strong><br>
-      <span>{{selectedStation.name}}</span><br>
-      <span class="station-tamil">{{selectedStation.tamil}}</span>
-    </div>
-  </div>
+<div class="app-title mb-1">சென்னை மெட்ரோ</div>
+<div class="container py-2">
+  <app-search [selectedLanguage]="selectedLanguage" (journeySelected)="onJourneySelected($event)" (languageChanged)="onLanguageChanged($event)"></app-search>
+  <app-journey [fromStation]="fromStationName" [toStation]="toStationName" [language]="selectedLanguage"></app-journey>
 </div>

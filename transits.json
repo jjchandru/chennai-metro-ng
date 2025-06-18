@@ -1,0 +1,114 @@
+[
+    {
+    "from": "Arignar Anna Alandur Metro - P1 - L1",
+    "to": "Arignar Anna Alandur Metro - P3 - L2",
+    "mode": "stairs",
+    "line": "",
+    "direction": "",
+    "duration": 3
+  },
+  {
+    "from": "Arignar Anna Alandur Metro - P3 - L2",
+    "to": "Arignar Anna Alandur Metro - P1 - L1",
+    "mode": "stairs",
+    "line": "",
+    "direction": "",
+    "duration": 3
+  },
+  {
+    "from": "Arignar Anna Alandur Metro - P4 - L2",
+    "to": "Arignar Anna Alandur Metro - P2 - L1",
+    "mode": "stairs",
+    "line": "",
+    "direction": "",
+    "duration": 3
+  },
+  {
+    "from": "Arignar Anna Alandur Metro - P2 - L1",
+    "to": "Arignar Anna Alandur Metro - P4 - L2",
+    "mode": "stairs",
+    "line": "",
+    "direction": "",
+    "duration": 3
+  },
+  {
+    "from": "Arignar Anna Alandur Metro - WEST - G",
+    "to": "Arignar Anna Alandur Metro - P2 - L1",
+    "mode": "stairs",
+    "line": "",
+    "direction": "",
+    "duration": 3
+  },
+  {
+    "from": "Arignar Anna Alandur Metro - P2 - L1",
+    "to": "Arignar Anna Alandur Metro - WEST - G",
+    "mode": "stairs",
+    "line": "",
+    "direction": "",
+    "duration": 3
+  },
+  {
+    "from": "Arignar Anna Alandur Metro - EAST - G",
+    "to": "Arignar Anna Alandur Metro - P1 - L1",
+    "mode": "stairs",
+    "line": "",
+    "direction": "",
+    "duration": 3
+  },
+  {
+    "from": "Arignar Anna Alandur Metro - P1 - L1",
+    "to": "Arignar Anna Alandur Metro - EAST - G",
+    "mode": "stairs",
+    "line": "",
+    "direction": "",
+    "duration": 3
+  },
+  {
+    "from": "Arignar Anna Alandur Metro - EAST - G",
+    "to": "Arignar Anna Alandur Metro - WEST - G",
+    "mode": "walk",
+    "line": "",
+    "direction": "",
+    "duration": 1
+  },
+  {
+    "from": "Arignar Anna Alandur Metro - WEST - G",
+    "to": "Arignar Anna Alandur Metro - EAST - G",
+    "mode": "walk",
+    "line": "",
+    "direction": "",
+    "duration": 1
+  },
+  {
+    "from": "Puratchi Thalaivar Dr. MG Ramachandran Central Metro - P1 - B1",
+    "to": "Puratchi Thalaivar Dr. MG Ramachandran Central Metro - P6 - B2",
+    "mode": "stairs",
+    "line": "",
+    "direction": "",
+    "duration": 3
+  },
+  {
+    "from": "Puratchi Thalaivar Dr. MG Ramachandran Central Metro - P6 - B2",
+    "to": "Puratchi Thalaivar Dr. MG Ramachandran Central Metro - P1 - B1",
+    "mode": "stairs",
+    "line": "",
+    "direction": "",
+    "duration": 3
+  },
+  {
+    "from": "Puratchi Thalaivar Dr. MG Ramachandran Central Metro - P5 - B2",
+    "to": "Puratchi Thalaivar Dr. MG Ramachandran Central Metro - P1 - B1",
+    "mode": "stairs",
+    "line": "",
+    "direction": "",
+    "duration": 3
+  },
+  {
+    "from": "Puratchi Thalaivar Dr. MG Ramachandran Central Metro - P1 - B1",
+    "to": "Puratchi Thalaivar Dr. MG Ramachandran Central Metro - P5 - B2",
+    "mode": "stairs",
+    "line": "",
+    "direction": "",
+    "duration": 3
+  }
+]

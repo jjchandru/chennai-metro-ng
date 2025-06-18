@@ -113,3 +113,17 @@
   margin-bottom: 0.25rem;
   color: #333;
 }
+
+/* Custom focus styles for search input */
+.modal-body .form-control:focus {
+  border-color: #AAAAAA;
+  border-width: 2px;
+  box-shadow: none;
+  outline: none;
+}
+
+/* Remove any additional focus effects */
+.modal-body .form-control:focus-visible {
+  outline: none;
+  box-shadow: none;
+}

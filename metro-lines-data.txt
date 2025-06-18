@@ -47,6 +47,28 @@ Nehru Park, நேரு பூங்கா
 Egmore, எழும்பூர்
 MG Ramachandran Central Metro, எம்.ஜி. இராமசந்திரன் சென்ட்ரல் மெட்ரோ
 
+Merged Line
+===========
+Chennai Airport, சென்னை விமான நிலையம்
+Meenambakkam Metro, மீனம்பாக்கம் மெட்ரோ
+Nanganallur Road, நங்கநல்லூர் சாலை
+Arignar Anna Alandur Metro, அறிஞர் அண்ணா ஆலந்தூர் மெட்ரோ
+Ekkattuthangal, ஈக்காட்டுதாங்கல்
+Ashok Nagar, அசோக் நகர்
+Vadapalani, வடபழனி
+Arumbakkam, அரும்பாக்கம்
+Puratchi Thalaivi Dr.J.Jayalalitha Koyambedu CMBT Metro, புரட்சி தலைவி டாக்டர் ஜெ. ஜெயலலிதா புறநகர் பேருந்து நிலையம் மெட்ரோ
+Koyambedu, கோயம்பேடு
+Thirumangalam, திருமங்கலம்
+Anna Nagar Tower, அண்ணாநகர் பூங்கா கோபுரம்
+Anna Nagar East, அண்ணாநகர் கிழக்கு
+Shenoy Nagar, செனாய் நகர்
+Pachaiyappa's College, பச்சையப்பன் கல்லூரி
+Kilpauk, கீழ்பாக்கம்
+Nehru Park, நேரு பூங்கா
+Egmore, எழும்பூர்
+MG Ramachandran Central Metro, எம்.ஜி. இராமசந்திரன் சென்ட்ரல் மெட்ரோ
+
 The green line starting from St. Thomas Mount Metro converges with Blue Line from Airport at Alandur station.
 A train starting from Airport may be either destined to Wimco Nagar Depot Metro or MG Ramachandran Central Metro.
 A train starting from St. Thomas Mount is always destined to MG Ramachandran Central Metro.

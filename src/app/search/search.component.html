@@ -1,0 +1,55 @@
+<div class="row g-0 align-items-center">
+  <div class="col-12 col-md-5">
+    <app-station-search-box 
+      label="From Station" 
+      [selectedStation]="fromStation"
+      (stationSelected)="onFromStationSelected($event)">
+    </app-station-search-box>
+  </div>
+  <!-- Swap icon for desktop (centered between from/to) -->
+  <div class="d-none d-md-flex col-md-2 justify-content-center align-items-center">
+    <button type="button" class="btn p-0 border-0 bg-transparent swap-btn" (click)="swapStations()" aria-label="Swap stations">
+      <i class="bi bi-arrow-left-right"></i>
+    </button>
+  </div>
+  <div class="col-12 col-md-5">
+    <app-station-search-box 
+      label="To Station" 
+      [selectedStation]="toStation"
+      (stationSelected)="onToStationSelected($event)">
+    </app-station-search-box>
+  </div>
+  <!-- Swap icon and language buttons for mobile (below both search boxes, right-aligned) -->
+  <div class="col-12 d-flex d-md-none justify-content-end align-items-center gap-2">
+    <button type="button" class="btn btn-sm lang-btn ta-btn"
+      [ngClass]="language === 'ta' ? 'btn-primary' : 'btn-outline-primary'"
+      (click)="setLanguage('ta')">தமிழ்</button>
+    <button type="button" class="btn btn-sm lang-btn ta-btn"
+      [ngClass]="language === 'en' ? 'btn-primary' : 'btn-outline-primary'"
+      (click)="setLanguage('en')">English</button>
+    <button type="button" class="btn btn-outline-primary btn-sm" (click)="swapStations()" aria-label="Swap stations">
+      <i class="bi bi-arrow-left-right"></i>
+    </button>
+  </div>
+</div>
+<!-- Language buttons for desktop (below search boxes) -->
+<div class="d-none d-md-flex justify-content-center gap-2">
+  <button type="button" class="btn btn-sm lang-btn ta-btn"
+    [ngClass]="language === 'ta' ? 'btn-primary' : 'btn-outline-primary'"
+    (click)="setLanguage('ta')">தமிழ்</button>
+  <button type="button" class="btn btn-sm lang-btn ta-btn"
+    [ngClass]="language === 'en' ? 'btn-primary' : 'btn-outline-primary'"
+    (click)="setLanguage('en')">English</button>
+</div>
+<!-- 
+<div class="mt-4">
+  <div *ngIf="fromStation" class="alert alert-secondary mb-2">
+    <strong>From:</strong> {{fromStation.name}} <span class="station-tamil">{{fromStation.tamil}}</span>
+  </div>
+  <div *ngIf="toStation" class="alert alert-secondary">
+    <strong>To:</strong> {{toStation.name}} <span class="station-tamil">{{toStation.tamil}}</span>
+  </div>
+</div> -->
+<div *ngIf="fromStation && toStation && fromStation.name === toStation.name" class="alert alert-warning mt-3">
+  From and To stations cannot be the same. Please select different stations.
+</div>

@@ -1,27 +1,31 @@
-# ChennaiMetroNg
+# Chennai Metro Guide App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.16.
+## Why This App? The Real Struggles of Chennai Metro Passengers
 
-## Development server
+Navigating the Chennai Metro can be confusing—especially at complex interchanges like Alandur. Many passengers have faced these issues:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Missed trains** because platforms change and announcements are unclear.
+- **No clear signages** or guidance on which platform to use for your destination.
+- **Changing lines is inconvenient**—you often have to go down to the ground floor and back up, with little direction.
+- **Lift and escalator confusion**—platform numbers are not clearly shown, and even the lifts just say "lower platform" instead of the actual number.
+- **No easy way to plan your journey**—especially if you’re new to the system or in a hurry.
 
-## Code scaffolding
+> "Everyone is getting confused until boarding the train... Because of four platforms everyone is confusing... Please provide some station list in every platform."
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## How This App Solves It
 
-## Build
+**Chennai Metro Guide App** is built to make your journey simple, fast, and stress-free:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- **Smart Station Search:** Instantly find your starting and ending stations in both English and Tamil.
+- **Clear Journey Path:** Get step-by-step guidance, including which platforms, lifts, and escalators to use—even at tricky stations like Alandur.
+- **No More Guesswork:** The app uses a graph-based model (like Google Maps for the Metro!) to always show you the best route.
+- **Works Offline:** Once loaded, you can use the app even without an internet connection.
+- **Mobile Friendly:** Designed for quick use on the go—just tap, search, and travel with confidence.
 
-## Running unit tests
+## Try It Now!
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+🚇 **Ready to make your next Chennai Metro trip easy?**
 
-## Running end-to-end tests
+👉 [Open the Chennai Metro Guide App](https://jjchandru.github.io/chennai-metro-ng/)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+No installs, no ads, just instant help for your journey. Click the link above and experience hassle-free metro navigation today!

@@ -1,0 +1,16 @@
+{
+  "name": "Chennai Metro Guide",
+  "short_name": "Metro Guide",
+  "description": "Your guide to Chennai Metro Rail",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "theme_color": "#0066cc",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "start_url": "/"
+}

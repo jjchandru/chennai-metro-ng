@@ -1,19 +1,22 @@
-<div *ngIf="label" class="station-search-label mb-1">{{ label }}</div>
 <div class="input-group mb-3">
   <ng-container *ngIf="selectedStation; else searchPrompt">
-    <div class="selected-station-box d-flex align-items-center w-100 p-2">
+    <div class="selected-station-box d-flex align-items-center w-100 p-2" (click)="onSelectedStationBoxClick()" style="cursor:pointer;">
+      <!-- <div class="station-label-selected me-2" *ngIf="label">{{ label }}</div> -->
       <div class="flex-grow-1">
-        <div class="selected-station-en">{{selectedStation.name}}</div>
+        <div class="selected-station-en">
+          {{selectedStation.name}}
+          <!-- <span *ngIf="label" class="badge bg-primary ms-2">{{ label }}</span> -->
+        </div>
         <div class="selected-station-ta">{{selectedStation.tamil}}</div>
       </div>
-      <button type="button" class="btn btn-link p-0 ms-2" (click)="clearSelectedStation()" aria-label="Clear">
+      <button type="button" class="btn btn-link p-0 ms-2" (click)="clearSelectedStation(); $event.stopPropagation();" aria-label="Clear">
         <i class="bi bi-x-lg"></i>
       </button>
     </div>
   </ng-container>
   <ng-template #searchPrompt>
     <button class="form-control text-start bg-white" (click)="openPopup()">
-      <i class="bi bi-search me-2"></i> Tap/Click to search
+      <i class="bi bi-search me-2"></i> Search<span *ngIf="label"> {{ label }}</span>
     </button>
   </ng-template>
 </div>
@@ -27,7 +30,7 @@
         <button type="button" class="btn-close" (click)="closePopup()"></button>
       </div>
       <div class="modal-body">
-        <input type="text" class="form-control mb-2" placeholder="Search stations..." [(ngModel)]="searchText" (input)="filterStations()">
+        <input type="text" class="form-control mb-2" placeholder="Search stations..." [(ngModel)]="searchText" (input)="filterStations()" #searchInput>
         <ul class="list-group station-list fixed-height-list">
           <li *ngFor="let station of filteredStations" class="list-group-item list-group-item-action" (click)="selectStation(station)">
             <div>{{station.name}}</div>

@@ -1,0 +1,1650 @@
+[
+  {
+    "from": "Meenambakkam Metro - P2 - L1",
+    "to": "Nanganallur Road - P2 - L1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Nanganallur Road - P2 - L1",
+    "to": "Arignar Anna Alandur Metro - P2 - L1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Nanganallur Road - P2 - L1",
+    "to": "Meenambakkam Metro - P2 - L1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Arignar Anna Alandur Metro - P2 - L1",
+    "to": "Guindy Metro - P2 - L1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Arignar Anna Alandur Metro - P2 - L1",
+    "to": "Nanganallur Road - P2 - L1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Guindy Metro - P2 - L1",
+    "to": "Little Mount - P2 - L1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Guindy Metro - P2 - L1",
+    "to": "Arignar Anna Alandur Metro - P2 - L1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Little Mount - P2 - L1",
+    "to": "Saidapet - P2 - L1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Little Mount - P2 - L1",
+    "to": "Guindy Metro - P2 - L1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Saidapet - P2 - L1",
+    "to": "Nandanam - P2 - B1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Saidapet - P2 - L1",
+    "to": "Little Mount - P2 - L1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Nandanam - P2 - B1",
+    "to": "Teynampet - P2 - B1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Nandanam - P2 - B1",
+    "to": "Saidapet - P2 - L1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Teynampet - P2 - B1",
+    "to": "AG-DMS - P2 - B1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Teynampet - P2 - B1",
+    "to": "Nandanam - P2 - B1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "AG-DMS - P2 - B1",
+    "to": "Thousand Lights - P2 - B1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "AG-DMS - P2 - B1",
+    "to": "Teynampet - P2 - B1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Thousand Lights - P2 - B1",
+    "to": "LIC - P2 - B1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Thousand Lights - P2 - B1",
+    "to": "AG-DMS - P2 - B1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "LIC - P2 - B1",
+    "to": "Government Estate - P2 - B1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "LIC - P2 - B1",
+    "to": "Thousand Lights - P2 - B1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Government Estate - P2 - B1",
+    "to": "LIC - P2 - B1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Hightcourt - P2 - B1",
+    "to": "Mannadi - P2 - B1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Mannadi - P2 - B1",
+    "to": "Washermanpet Metro - P2 - B1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Mannadi - P2 - B1",
+    "to": "Hightcourt - P2 - B1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Washermanpet Metro - P2 - B1",
+    "to": "Sir Thiyagaraya College Metro - P2 - B1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Washermanpet Metro - P2 - B1",
+    "to": "Mannadi - P2 - B1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Sir Thiyagaraya College Metro - P2 - B1",
+    "to": "Tondiarpet Metro - P2 - B1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Sir Thiyagaraya College Metro - P2 - B1",
+    "to": "Washermanpet Metro - P2 - B1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Tondiarpet Metro - P2 - B1",
+    "to": "New Washermanpet Metro - P2 - L1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Tondiarpet Metro - P2 - B1",
+    "to": "Sir Thiyagaraya College Metro - P2 - B1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "New Washermanpet Metro - P2 - L1",
+    "to": "Tollgate Metro - P2 - L1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "New Washermanpet Metro - P2 - L1",
+    "to": "Tondiarpet Metro - P2 - B1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Tollgate Metro - P2 - L1",
+    "to": "Kaladipet Metro - P2 - L1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Tollgate Metro - P2 - L1",
+    "to": "New Washermanpet Metro - P2 - L1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Kaladipet Metro - P2 - L1",
+    "to": "Thiruvottriyur Theradi Metro - P2 - L1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Kaladipet Metro - P2 - L1",
+    "to": "Tollgate Metro - P2 - L1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Thiruvottriyur Theradi Metro - P2 - L1",
+    "to": "Thiruvottriyur Metro - P2 - L1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Thiruvottriyur Theradi Metro - P2 - L1",
+    "to": "Kaladipet Metro - P2 - L1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Thiruvottriyur Metro - P2 - L1",
+    "to": "Wimco Nagar Metro - P2 - L1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Thiruvottriyur Metro - P2 - L1",
+    "to": "Thiruvottriyur Theradi Metro - P2 - L1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Wimco Nagar Metro - P2 - L1",
+    "to": "Wimco Nagar Depot Metro - P2 - L1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Wimco Nagar Metro - P2 - L1",
+    "to": "Thiruvottriyur Metro - P2 - L1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Wimco Nagar Depot Metro - P2 - L1",
+    "to": "Wimco Nagar Metro - P2 - L1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Wimco Nagar Depot Metro - P1 - L1",
+    "to": "Wimco Nagar Metro - P1 - L1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Wimco Nagar Metro - P1 - L1",
+    "to": "Thiruvottriyur Metro - P1 - L1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Wimco Nagar Metro - P1 - L1",
+    "to": "Wimco Nagar Depot Metro - P1 - L1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Thiruvottriyur Metro - P1 - L1",
+    "to": "Thiruvottriyur Theradi Metro - P1 - L1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Thiruvottriyur Metro - P1 - L1",
+    "to": "Wimco Nagar Metro - P1 - L1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Thiruvottriyur Theradi Metro - P1 - L1",
+    "to": "Kaladipet Metro - P1 - L1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Thiruvottriyur Theradi Metro - P1 - L1",
+    "to": "Thiruvottriyur Metro - P1 - L1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Kaladipet Metro - P1 - L1",
+    "to": "Tollgate Metro - P1 - L1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Kaladipet Metro - P1 - L1",
+    "to": "Thiruvottriyur Theradi Metro - P1 - L1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Tollgate Metro - P1 - L1",
+    "to": "New Washermanpet Metro - P1 - L1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Tollgate Metro - P1 - L1",
+    "to": "Kaladipet Metro - P1 - L1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "New Washermanpet Metro - P1 - L1",
+    "to": "Tondiarpet Metro - P1 - B1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "New Washermanpet Metro - P1 - L1",
+    "to": "Tollgate Metro - P1 - L1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Tondiarpet Metro - P1 - B1",
+    "to": "Sir Thiyagaraya College Metro - P1 - B1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Tondiarpet Metro - P1 - B1",
+    "to": "New Washermanpet Metro - P1 - L1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Sir Thiyagaraya College Metro - P1 - B1",
+    "to": "Washermanpet Metro - P1 - B1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Sir Thiyagaraya College Metro - P1 - B1",
+    "to": "Tondiarpet Metro - P1 - B1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Washermanpet Metro - P1 - B1",
+    "to": "Mannadi - P1 - B1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Washermanpet Metro - P1 - B1",
+    "to": "Sir Thiyagaraya College Metro - P1 - B1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Mannadi - P1 - B1",
+    "to": "Hightcourt - P1 - B1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Mannadi - P1 - B1",
+    "to": "Washermanpet Metro - P1 - B1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Hightcourt - P1 - B1",
+    "to": "Mannadi - P1 - B1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Government Estate - P1 - B1",
+    "to": "LIC - P1 - B1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "LIC - P1 - B1",
+    "to": "Thousand Lights - P1 - B1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "LIC - P1 - B1",
+    "to": "Government Estate - P1 - B1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Thousand Lights - P1 - B1",
+    "to": "AG-DMS - P1 - B1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Thousand Lights - P1 - B1",
+    "to": "LIC - P1 - B1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "AG-DMS - P1 - B1",
+    "to": "Teynampet - P1 - B1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "AG-DMS - P1 - B1",
+    "to": "Thousand Lights - P1 - B1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Teynampet - P1 - B1",
+    "to": "Nandanam - P1 - B1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Teynampet - P1 - B1",
+    "to": "AG-DMS - P1 - B1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Nandanam - P1 - B1",
+    "to": "Saidapet - P1 - B1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Nandanam - P1 - B1",
+    "to": "Teynampet - P1 - B1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Saidapet - P1 - B1",
+    "to": "Little Mount - P1 - L1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Saidapet - P1 - B1",
+    "to": "Nandanam - P1 - B1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Little Mount - P1 - L1",
+    "to": "Guindy Metro - P1 - L1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Little Mount - P1 - L1",
+    "to": "Saidapet - P1 - B1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Guindy Metro - P1 - L1",
+    "to": "Arignar Anna Alandur Metro - P1 - L1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Guindy Metro - P1 - L1",
+    "to": "Little Mount - P1 - L1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Arignar Anna Alandur Metro - P1 - L1",
+    "to": "Nanganallur Road - P1 - L1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Arignar Anna Alandur Metro - P1 - L1",
+    "to": "Guindy Metro - P1 - L1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Nanganallur Road - P1 - L1",
+    "to": "Meenambakkam Metro - P1 - L1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Nanganallur Road - P1 - L1",
+    "to": "Arignar Anna Alandur Metro - P1 - L1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Meenambakkam Metro - P1 - L1",
+    "to": "Chennai Airport - P1 - L1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Meenambakkam Metro - P1 - L1",
+    "to": "Nanganallur Road - P1 - L1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Chennai Airport - P1 - L1",
+    "to": "Meenambakkam Metro - P1 - L1",
+    "mode": "train",
+    "line": "Blue",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Ekkattuthangal - P2 - L1",
+    "to": "Ashok Nagar - P2 - L1",
+    "mode": "train",
+    "line": "Green",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Ashok Nagar - P2 - L1",
+    "to": "Vadapalani - P2 - L1",
+    "mode": "train",
+    "line": "Green",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Ashok Nagar - P2 - L1",
+    "to": "Ekkattuthangal - P2 - L1",
+    "mode": "train",
+    "line": "Green",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Vadapalani - P2 - L1",
+    "to": "Arumbakkam - P2 - L1",
+    "mode": "train",
+    "line": "Green",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Vadapalani - P2 - L1",
+    "to": "Ashok Nagar - P2 - L1",
+    "mode": "train",
+    "line": "Green",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Arumbakkam - P2 - L1",
+    "to": "Puratchi Thalaivi Dr.J.Jayalalitha Koyambedu CMBT Metro - P2 - L1",
+    "mode": "train",
+    "line": "Green",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Arumbakkam - P2 - L1",
+    "to": "Vadapalani - P2 - L1",
+    "mode": "train",
+    "line": "Green",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Puratchi Thalaivi Dr.J.Jayalalitha Koyambedu CMBT Metro - P2 - L1",
+    "to": "Koyambedu - P2 - L1",
+    "mode": "train",
+    "line": "Green",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Puratchi Thalaivi Dr.J.Jayalalitha Koyambedu CMBT Metro - P2 - L1",
+    "to": "Arumbakkam - P2 - L1",
+    "mode": "train",
+    "line": "Green",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Koyambedu - P2 - L1",
+    "to": "Thirumangalam - P2 - B1",
+    "mode": "train",
+    "line": "Green",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Koyambedu - P2 - L1",
+    "to": "Puratchi Thalaivi Dr.J.Jayalalitha Koyambedu CMBT Metro - P2 - L1",
+    "mode": "train",
+    "line": "Green",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Thirumangalam - P2 - B1",
+    "to": "Anna Nagar Tower - P2 - B1",
+    "mode": "train",
+    "line": "Green",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Thirumangalam - P2 - B1",
+    "to": "Koyambedu - P2 - L1",
+    "mode": "train",
+    "line": "Green",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Anna Nagar Tower - P2 - B1",
+    "to": "Anna Nagar East - P2 - B1",
+    "mode": "train",
+    "line": "Green",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Anna Nagar Tower - P2 - B1",
+    "to": "Thirumangalam - P2 - B1",
+    "mode": "train",
+    "line": "Green",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Anna Nagar East - P2 - B1",
+    "to": "Shenoy Nagar - P2 - B1",
+    "mode": "train",
+    "line": "Green",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Anna Nagar East - P2 - B1",
+    "to": "Anna Nagar Tower - P2 - B1",
+    "mode": "train",
+    "line": "Green",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Shenoy Nagar - P2 - B1",
+    "to": "Pachaiyappa's College - P2 - B1",
+    "mode": "train",
+    "line": "Green",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Shenoy Nagar - P2 - B1",
+    "to": "Anna Nagar East - P2 - B1",
+    "mode": "train",
+    "line": "Green",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Pachaiyappa's College - P2 - B1",
+    "to": "Kilpauk - P2 - B1",
+    "mode": "train",
+    "line": "Green",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Pachaiyappa's College - P2 - B1",
+    "to": "Shenoy Nagar - P2 - B1",
+    "mode": "train",
+    "line": "Green",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Kilpauk - P2 - B1",
+    "to": "Nehru Park - P2 - B1",
+    "mode": "train",
+    "line": "Green",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Kilpauk - P2 - B1",
+    "to": "Pachaiyappa's College - P2 - B1",
+    "mode": "train",
+    "line": "Green",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Nehru Park - P2 - B1",
+    "to": "Egmore - P2 - B1",
+    "mode": "train",
+    "line": "Green",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Nehru Park - P2 - B1",
+    "to": "Kilpauk - P2 - B1",
+    "mode": "train",
+    "line": "Green",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Egmore - P2 - B1",
+    "to": "Nehru Park - P2 - B1",
+    "mode": "train",
+    "line": "Green",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Puratchi Thalaivar Dr. MG Ramachandran Central Metro - P1 - B1",
+    "to": "Egmore - P1 - B1",
+    "mode": "train",
+    "line": "Green",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Egmore - P1 - B1",
+    "to": "Nehru Park - P1 - B1",
+    "mode": "train",
+    "line": "Green",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Egmore - P1 - B1",
+    "to": "Puratchi Thalaivar Dr. MG Ramachandran Central Metro - P1 - B1",
+    "mode": "train",
+    "line": "Green",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Nehru Park - P1 - B1",
+    "to": "Kilpauk - P1 - B1",
+    "mode": "train",
+    "line": "Green",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Nehru Park - P1 - B1",
+    "to": "Egmore - P1 - B1",
+    "mode": "train",
+    "line": "Green",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Kilpauk - P1 - B1",
+    "to": "Pachaiyappa's College - P1 - B1",
+    "mode": "train",
+    "line": "Green",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Kilpauk - P1 - B1",
+    "to": "Nehru Park - P1 - B1",
+    "mode": "train",
+    "line": "Green",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Pachaiyappa's College - P1 - B1",
+    "to": "Shenoy Nagar - P1 - B1",
+    "mode": "train",
+    "line": "Green",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Pachaiyappa's College - P1 - B1",
+    "to": "Kilpauk - P1 - B1",
+    "mode": "train",
+    "line": "Green",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Shenoy Nagar - P1 - B1",
+    "to": "Anna Nagar East - P1 - B1",
+    "mode": "train",
+    "line": "Green",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Shenoy Nagar - P1 - B1",
+    "to": "Pachaiyappa's College - P1 - B1",
+    "mode": "train",
+    "line": "Green",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Anna Nagar East - P1 - B1",
+    "to": "Anna Nagar Tower - P1 - B1",
+    "mode": "train",
+    "line": "Green",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Anna Nagar East - P1 - B1",
+    "to": "Shenoy Nagar - P1 - B1",
+    "mode": "train",
+    "line": "Green",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Anna Nagar Tower - P1 - B1",
+    "to": "Thirumangalam - P1 - B1",
+    "mode": "train",
+    "line": "Green",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Anna Nagar Tower - P1 - B1",
+    "to": "Anna Nagar East - P1 - B1",
+    "mode": "train",
+    "line": "Green",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Thirumangalam - P1 - B1",
+    "to": "Koyambedu - P1 - L1",
+    "mode": "train",
+    "line": "Green",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Thirumangalam - P1 - B1",
+    "to": "Anna Nagar Tower - P1 - B1",
+    "mode": "train",
+    "line": "Green",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Koyambedu - P1 - L1",
+    "to": "Puratchi Thalaivi Dr.J.Jayalalitha Koyambedu CMBT Metro - P1 - L1",
+    "mode": "train",
+    "line": "Green",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Koyambedu - P1 - L1",
+    "to": "Thirumangalam - P1 - B1",
+    "mode": "train",
+    "line": "Green",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Puratchi Thalaivi Dr.J.Jayalalitha Koyambedu CMBT Metro - P1 - L1",
+    "to": "Arumbakkam - P1 - L1",
+    "mode": "train",
+    "line": "Green",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Puratchi Thalaivi Dr.J.Jayalalitha Koyambedu CMBT Metro - P1 - L1",
+    "to": "Koyambedu - P1 - L1",
+    "mode": "train",
+    "line": "Green",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Arumbakkam - P1 - L1",
+    "to": "Vadapalani - P1 - L1",
+    "mode": "train",
+    "line": "Green",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Arumbakkam - P1 - L1",
+    "to": "Puratchi Thalaivi Dr.J.Jayalalitha Koyambedu CMBT Metro - P1 - L1",
+    "mode": "train",
+    "line": "Green",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Vadapalani - P1 - L1",
+    "to": "Ashok Nagar - P1 - L1",
+    "mode": "train",
+    "line": "Green",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Vadapalani - P1 - L1",
+    "to": "Arumbakkam - P1 - L1",
+    "mode": "train",
+    "line": "Green",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Ashok Nagar - P1 - L1",
+    "to": "Ekkattuthangal - P1 - L1",
+    "mode": "train",
+    "line": "Green",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Ashok Nagar - P1 - L1",
+    "to": "Vadapalani - P1 - L1",
+    "mode": "train",
+    "line": "Green",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Ekkattuthangal - P1 - L1",
+    "to": "Ashok Nagar - P1 - L1",
+    "mode": "train",
+    "line": "Green",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Chennai Airport - P2 - L1",
+    "to": "Meenambakkam Metro - P2 - L1",
+    "mode": "train",
+    "line": "Inter",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Meenambakkam Metro - P2 - L1",
+    "to": "Nanganallur Road - P2 - L1",
+    "mode": "train",
+    "line": "Inter",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Meenambakkam Metro - P2 - L1",
+    "to": "Chennai Airport - P2 - L1",
+    "mode": "train",
+    "line": "Inter",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Nanganallur Road - P2 - L1",
+    "to": "Meenambakkam Metro - P2 - L1",
+    "mode": "train",
+    "line": "Inter",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Ekkattuthangal - P2 - L1",
+    "to": "Ashok Nagar - P2 - L1",
+    "mode": "train",
+    "line": "Inter",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Ashok Nagar - P2 - L1",
+    "to": "Vadapalani - P2 - L1",
+    "mode": "train",
+    "line": "Inter",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Ashok Nagar - P2 - L1",
+    "to": "Ekkattuthangal - P2 - L1",
+    "mode": "train",
+    "line": "Inter",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Vadapalani - P2 - L1",
+    "to": "Arumbakkam - P2 - L1",
+    "mode": "train",
+    "line": "Inter",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Vadapalani - P2 - L1",
+    "to": "Ashok Nagar - P2 - L1",
+    "mode": "train",
+    "line": "Inter",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Arumbakkam - P2 - L1",
+    "to": "Puratchi Thalaivi Dr.J.Jayalalitha Koyambedu CMBT Metro - P2 - L1",
+    "mode": "train",
+    "line": "Inter",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Arumbakkam - P2 - L1",
+    "to": "Vadapalani - P2 - L1",
+    "mode": "train",
+    "line": "Inter",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Puratchi Thalaivi Dr.J.Jayalalitha Koyambedu CMBT Metro - P2 - L1",
+    "to": "Koyambedu - P2 - L1",
+    "mode": "train",
+    "line": "Inter",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Puratchi Thalaivi Dr.J.Jayalalitha Koyambedu CMBT Metro - P2 - L1",
+    "to": "Arumbakkam - P2 - L1",
+    "mode": "train",
+    "line": "Inter",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Koyambedu - P2 - L1",
+    "to": "Thirumangalam - P2 - B1",
+    "mode": "train",
+    "line": "Inter",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Koyambedu - P2 - L1",
+    "to": "Puratchi Thalaivi Dr.J.Jayalalitha Koyambedu CMBT Metro - P2 - L1",
+    "mode": "train",
+    "line": "Inter",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Thirumangalam - P2 - B1",
+    "to": "Anna Nagar Tower - P2 - B1",
+    "mode": "train",
+    "line": "Inter",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Thirumangalam - P2 - B1",
+    "to": "Koyambedu - P2 - L1",
+    "mode": "train",
+    "line": "Inter",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Anna Nagar Tower - P2 - B1",
+    "to": "Anna Nagar East - P2 - B1",
+    "mode": "train",
+    "line": "Inter",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Anna Nagar Tower - P2 - B1",
+    "to": "Thirumangalam - P2 - B1",
+    "mode": "train",
+    "line": "Inter",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Anna Nagar East - P2 - B1",
+    "to": "Shenoy Nagar - P2 - B1",
+    "mode": "train",
+    "line": "Inter",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Anna Nagar East - P2 - B1",
+    "to": "Anna Nagar Tower - P2 - B1",
+    "mode": "train",
+    "line": "Inter",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Shenoy Nagar - P2 - B1",
+    "to": "Pachaiyappa's College - P2 - B1",
+    "mode": "train",
+    "line": "Inter",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Shenoy Nagar - P2 - B1",
+    "to": "Anna Nagar East - P2 - B1",
+    "mode": "train",
+    "line": "Inter",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Pachaiyappa's College - P2 - B1",
+    "to": "Kilpauk - P2 - B1",
+    "mode": "train",
+    "line": "Inter",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Pachaiyappa's College - P2 - B1",
+    "to": "Shenoy Nagar - P2 - B1",
+    "mode": "train",
+    "line": "Inter",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Kilpauk - P2 - B1",
+    "to": "Nehru Park - P2 - B1",
+    "mode": "train",
+    "line": "Inter",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Kilpauk - P2 - B1",
+    "to": "Pachaiyappa's College - P2 - B1",
+    "mode": "train",
+    "line": "Inter",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Nehru Park - P2 - B1",
+    "to": "Egmore - P2 - B1",
+    "mode": "train",
+    "line": "Inter",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Nehru Park - P2 - B1",
+    "to": "Kilpauk - P2 - B1",
+    "mode": "train",
+    "line": "Inter",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Egmore - P2 - B1",
+    "to": "Nehru Park - P2 - B1",
+    "mode": "train",
+    "line": "Inter",
+    "direction": "onward",
+    "duration": 2
+  },
+  {
+    "from": "Puratchi Thalaivar Dr. MG Ramachandran Central Metro - P1 - B1",
+    "to": "Egmore - P1 - B1",
+    "mode": "train",
+    "line": "Inter",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Egmore - P1 - B1",
+    "to": "Nehru Park - P1 - B1",
+    "mode": "train",
+    "line": "Inter",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Egmore - P1 - B1",
+    "to": "Puratchi Thalaivar Dr. MG Ramachandran Central Metro - P1 - B1",
+    "mode": "train",
+    "line": "Inter",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Nehru Park - P1 - B1",
+    "to": "Kilpauk - P1 - B1",
+    "mode": "train",
+    "line": "Inter",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Nehru Park - P1 - B1",
+    "to": "Egmore - P1 - B1",
+    "mode": "train",
+    "line": "Inter",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Kilpauk - P1 - B1",
+    "to": "Pachaiyappa's College - P1 - B1",
+    "mode": "train",
+    "line": "Inter",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Kilpauk - P1 - B1",
+    "to": "Nehru Park - P1 - B1",
+    "mode": "train",
+    "line": "Inter",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Pachaiyappa's College - P1 - B1",
+    "to": "Shenoy Nagar - P1 - B1",
+    "mode": "train",
+    "line": "Inter",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Pachaiyappa's College - P1 - B1",
+    "to": "Kilpauk - P1 - B1",
+    "mode": "train",
+    "line": "Inter",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Shenoy Nagar - P1 - B1",
+    "to": "Anna Nagar East - P1 - B1",
+    "mode": "train",
+    "line": "Inter",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Shenoy Nagar - P1 - B1",
+    "to": "Pachaiyappa's College - P1 - B1",
+    "mode": "train",
+    "line": "Inter",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Anna Nagar East - P1 - B1",
+    "to": "Anna Nagar Tower - P1 - B1",
+    "mode": "train",
+    "line": "Inter",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Anna Nagar East - P1 - B1",
+    "to": "Shenoy Nagar - P1 - B1",
+    "mode": "train",
+    "line": "Inter",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Anna Nagar Tower - P1 - B1",
+    "to": "Thirumangalam - P1 - B1",
+    "mode": "train",
+    "line": "Inter",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Anna Nagar Tower - P1 - B1",
+    "to": "Anna Nagar East - P1 - B1",
+    "mode": "train",
+    "line": "Inter",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Thirumangalam - P1 - B1",
+    "to": "Koyambedu - P1 - L1",
+    "mode": "train",
+    "line": "Inter",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Thirumangalam - P1 - B1",
+    "to": "Anna Nagar Tower - P1 - B1",
+    "mode": "train",
+    "line": "Inter",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Koyambedu - P1 - L1",
+    "to": "Puratchi Thalaivi Dr.J.Jayalalitha Koyambedu CMBT Metro - P1 - L1",
+    "mode": "train",
+    "line": "Inter",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Koyambedu - P1 - L1",
+    "to": "Thirumangalam - P1 - B1",
+    "mode": "train",
+    "line": "Inter",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Puratchi Thalaivi Dr.J.Jayalalitha Koyambedu CMBT Metro - P1 - L1",
+    "to": "Arumbakkam - P1 - L1",
+    "mode": "train",
+    "line": "Inter",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Puratchi Thalaivi Dr.J.Jayalalitha Koyambedu CMBT Metro - P1 - L1",
+    "to": "Koyambedu - P1 - L1",
+    "mode": "train",
+    "line": "Inter",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Arumbakkam - P1 - L1",
+    "to": "Vadapalani - P1 - L1",
+    "mode": "train",
+    "line": "Inter",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Arumbakkam - P1 - L1",
+    "to": "Puratchi Thalaivi Dr.J.Jayalalitha Koyambedu CMBT Metro - P1 - L1",
+    "mode": "train",
+    "line": "Inter",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Vadapalani - P1 - L1",
+    "to": "Ashok Nagar - P1 - L1",
+    "mode": "train",
+    "line": "Inter",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Vadapalani - P1 - L1",
+    "to": "Arumbakkam - P1 - L1",
+    "mode": "train",
+    "line": "Inter",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Ashok Nagar - P1 - L1",
+    "to": "Ekkattuthangal - P1 - L1",
+    "mode": "train",
+    "line": "Inter",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Ashok Nagar - P1 - L1",
+    "to": "Vadapalani - P1 - L1",
+    "mode": "train",
+    "line": "Inter",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Ekkattuthangal - P1 - L1",
+    "to": "Ashok Nagar - P1 - L1",
+    "mode": "train",
+    "line": "Inter",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Nanganallur Road - P2 - L1",
+    "to": "Meenambakkam Metro - P2 - L1",
+    "mode": "train",
+    "line": "Inter",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Meenambakkam Metro - P2 - L1",
+    "to": "Chennai Airport - P2 - L1",
+    "mode": "train",
+    "line": "Inter",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Meenambakkam Metro - P2 - L1",
+    "to": "Nanganallur Road - P2 - L1",
+    "mode": "train",
+    "line": "Inter",
+    "direction": "return",
+    "duration": 2
+  },
+  {
+    "from": "Chennai Airport - P2 - L1",
+    "to": "Meenambakkam Metro - P2 - L1",
+    "mode": "train",
+    "line": "Inter",
+    "direction": "return",
+    "duration": 2
+  }
+]

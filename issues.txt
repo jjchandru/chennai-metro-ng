@@ -1,0 +1,43 @@
+Issue #1: Chennai Airport - Ekkattuthangal - Platform Number 1. Terminal station Wimco Nagar Depot Metro. Platform number must be 2 and Terminal station must be Central Station. When selecting stations after Chennai Airport, the platform numbers are correct, but the terminal station is incorrect. Fixed.
+
+Issue #2: Wimco Nagar Depot Metro - Wimco Nagar Metro - Terminal station is displayed as Wimco Nagar Depot Metro, but it must be Chennai Central. This happens for all the stations in blue line, when the start station is Wimco Nagar Depot Metro and to is another station in blue line. If the station is changed to Wimco Nagar Metro, the terminal station is correctly displayed as Chennai Airport. This issue happens for Central to any station in green line, the terminal station is displayed as Central itself. Fixed.
+
+Issue #3: St. Thomas Mount Metro - Egmore - This journey plan has two transits, one in alandur and central, this path may be shorter, but preference must be given to direct routes rather than transits. This happens for St. Thomas Mount Metro - Central or it must show both options and let the passenger choose the right option. This happens for Chennai Airport - Egmore as well. This issue happens for Central - St. Thomas Mount.
+
+Issue #4: Feature, provide option to swap the stations.
+
+Issue #5: Chennai Airport - St. Thomas Mount Metro - Following is the result.
+Chennai Airport
+From ticket counter, go up one level to Platform 1
+Board train heading to Wimco Nagar Depot Metro.
+Meenambakkam Metro
+OTA Nanganallur Road
+Arignar Anna Alandur Metro
+You will arrive in Platform 2 Level 1.
+Go down one level to WEST Ground Floor.
+Walk to EAST Ground Floor.
+Go up two levels to Platform 3
+Board train heading to Puratchi Thalaivar Dr. MG Ramachandran Central Metro.
+St. Thomas Mount Metro
+Destination
+
+In the last step in Alandur Transit, the message must be "Board train heading to St. Thomas Mount", currently it is displayed incorrectly. (Fixed)
+
+Issue #6: For basement it is displayed as "Level B2", instead it must display "Basement Level 2"
+
+Issue #7: Wimco Nagar Depot Metro - Ekkattuthangal. It recommends to take blue line and transit in alandur, but the transit instructions below are wrong,
+Arignar Anna Alandur Metro
+You will arrive in Platform 1 Level 1.
+Go up one level to Platform 3
+Board train heading to Puratchi Thalaivar Dr. MG Ramachandran Central Metro.
+St. Thomas Mount Metro
+Arignar Anna Alandur Metro
+Ekkattuthangal
+Destination
+It is asking to got to Platform 3, but instead it must recommend to go to Platform 4, with terminal station as Central. In the subsequent steps, it recommends to go to St. Thomas Mount and return, which is not a correct recommendation. (Fixed)
+
+Tested - Blue Line to and fro. Green Line to and fro. Destinations from Wimco Nagar Depot Metro, Chennai Airport and St. Thomas Mount. Yet to test destinations from Central.
+
+Issue #8: Vadapalani - OTA Nanganallur Road. The terminal station is displayed St. Thomas Mount Metro, but it must be Chennai Airport. Fixed.
+
+Issue #9: Vadapalani - Guindy. The terminal station is displayed as St. Thomas Mount Metro, but it must be St. Thomas Mount Metro / Chennai Airport. In transit at Alandur, the first steps mentions about arrival in Platform 4, but it must be Platform 3. (Fixed)

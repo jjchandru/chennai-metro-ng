@@ -1,0 +1,99 @@
+[
+    {
+        "node": {
+            "id": "Chennai Airport - P1 - L1",
+            "station": "Chennai Airport",
+            "line": "Blue",
+            "direction": "onward",
+            "sequence": 1,
+            "platform": "P1",
+            "level": "L1",
+            "type": "train",
+            "isTerminal": true
+        }
+    },
+    {
+        "node": {
+            "id": "Meenambakkam Metro - P2 - L1",
+            "station": "Meenambakkam Metro",
+            "line": "Blue",
+            "direction": "onward",
+            "sequence": 2,
+            "platform": "P2",
+            "level": "L1",
+            "type": "train",
+            "isTerminal": false
+        },
+        "edgeFromPrev": {
+            "from": "Chennai Airport - P1 - L1",
+            "to": "Meenambakkam Metro - P2 - L1",
+            "mode": "train",
+            "line": "Blue",
+            "direction": "onward",
+            "duration": 2
+        }
+    },
+    {
+        "node": {
+            "id": "OTA Nanganallur Road - P2 - L1",
+            "station": "OTA Nanganallur Road",
+            "line": "Blue",
+            "direction": "onward",
+            "sequence": 3,
+            "platform": "P2",
+            "level": "L1",
+            "type": "train",
+            "isTerminal": false
+        },
+        "edgeFromPrev": {
+            "from": "Meenambakkam Metro - P2 - L1",
+            "to": "OTA Nanganallur Road - P2 - L1",
+            "mode": "train",
+            "line": "Blue",
+            "direction": "onward",
+            "duration": 2
+        }
+    },
+    {
+        "node": {
+            "id": "Arignar Anna Alandur Metro - P4 - L2",
+            "station": "Arignar Anna Alandur Metro",
+            "line": "Green",
+            "direction": "onward",
+            "sequence": 2,
+            "platform": "P4",
+            "level": "L2",
+            "type": "train",
+            "isTerminal": false
+        },
+        "edgeFromPrev": {
+            "from": "OTA Nanganallur Road - P2 - L1",
+            "to": "Arignar Anna Alandur Metro - P4 - L2",
+            "mode": "train",
+            "line": "Inter",
+            "direction": "onward",
+            "duration": 2
+        }
+    },
+    {
+        "node": {
+            "id": "Ekkattuthangal - P2 - L1",
+            "station": "Ekkattuthangal",
+            "line": "Green",
+            "direction": "onward",
+            "sequence": 3,
+            "platform": "P2",
+            "level": "L1",
+            "type": "train",
+            "isTerminal": false
+        },
+        "edgeFromPrev": {
+            "from": "Arignar Anna Alandur Metro - P4 - L2",
+            "to": "Ekkattuthangal - P2 - L1",
+            "mode": "train",
+            "line": "Green",
+            "direction": "onward",
+            "duration": 2
+        }
+    }
+]

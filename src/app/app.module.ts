@@ -6,11 +6,15 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { StationSearchBoxComponent } from './station-search-box/station-search-box.component';
+import { SearchComponent } from './search/search.component';
+import { JourneyComponent } from './journey/journey.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    StationSearchBoxComponent
+    StationSearchBoxComponent,
+    SearchComponent,
+    JourneyComponent
   ],
   imports: [
     BrowserModule,

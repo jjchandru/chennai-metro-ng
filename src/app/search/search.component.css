@@ -1,0 +1,28 @@
+/* Swap button icon size and appearance */
+.swap-btn i {
+  font-size: 1.2rem;
+}
+
+/* Remove button background and border for swap button */
+.swap-btn {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+/* Style language buttons as outlined, and highlight the selected language with a dark background and white text */
+.lang-btn {
+  min-width: 70px;
+  font-size: 0.85em;
+  transition: background 0.2s, color 0.2s;
+}
+
+.lang-btn.ta-btn {
+  font-family: 'Mukta Malar', 'Latha', 'Noto Sans Tamil', sans-serif;
+}
+
+.active-lang {
+  background: none;
+  color: inherit;
+  border-color: inherit;
+}
