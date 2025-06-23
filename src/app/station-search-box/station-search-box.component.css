@@ -42,7 +42,7 @@
 
 .station-tamil {
   font-family: 'Mukta Malar', 'Latha', 'Noto Sans Tamil', sans-serif;
-  font-size: 0.82rem;
+  font-size: 0.9rem;
   font-weight: bold;
   color: #555;
   line-height: 1.1;
@@ -62,7 +62,7 @@
     min-height: 240px;
   }
   .station-tamil {
-    font-size: 0.7rem;
+    font-size: 0.85rem;
   }
 }
 
@@ -90,6 +90,7 @@
 .selected-station-en {
   font-size: 0.9rem;
   font-weight: 500;
+  line-height: 1;
 }
 .selected-station-ta {
   font-family: 'Mukta Malar', 'Latha', 'Noto Sans Tamil', sans-serif;
@@ -126,4 +127,9 @@
 .modal-body .form-control:focus-visible {
   outline: none;
   box-shadow: none;
+}
+
+.modal-header {
+  padding: 0.2rem;
+  border-bottom: none;
 }

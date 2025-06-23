@@ -1,6 +1,6 @@
 .journey-leg {
   position: relative;
-  margin-left: 2rem;
+  /* margin-left: 2rem; */
 }
 
 .journey-line-container {
@@ -9,16 +9,39 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-left: -1px;
 }
 
 .journey-line {
   width: 6px;
-  height: 20px;
+  height: calc(100% - 22px);
   background-color: #1976d2; /* fallback blue */
-  border-radius: 3px;
-  min-height: 20px;
-  margin-top: 0.2rem;
-  margin-bottom: 0.2rem;
+  /* border-radius: 3px; */
+  min-height: 34px;
+  /* margin-top: 0.2rem; */
+  /* margin-bottom: 0.2rem; */
+  transition: background-color 0.2s;
+}
+
+.journey-line-transit {
+  width: 6px;
+  height: calc(100% - 22px);
+  /* background-color: rgb(224, 224, 224); fallback blue */
+  border: 3px dashed rgb(224, 224, 224); /* or dashed for a dash effect */
+  /* border-radius: 3px; */
+  min-height: 34px;
+  margin-left: 8px;
+  /* margin-top: 0.2rem; */
+  /* margin-bottom: 0.2rem; */
+  transition: background-color 0.2s;
+}
+
+.journey-getdown-line {
+  /* display: inline-block; */
+  width: 6px;
+  height: calc(100% - 22px);
+  min-height: 45px;
+  /* margin-left: 8px; */
   transition: background-color 0.2s;
 }
 
@@ -27,7 +50,7 @@
 }
 
 .journey-stations-list {
-  padding-left: 0.5rem;
+  padding-left: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -35,14 +58,15 @@
 
 .station-traverse {
   /* margin-bottom: 0.15rem; */
-  /* font-size: 0.75rem; */
-  color: #888;
+  font-size: 0.9rem;
+  color:rgb(70, 70, 70);
   line-height: 1.2;
 }
 
 .station-traverse-ta {
   font-family: 'Mukta Malar', 'Latha', 'Noto Sans Tamil', sans-serif;
-  color: #888;
+  font-size: 0.9rem;
+  color:rgb(70, 70, 70);
   line-height: 1.2;
   /* font-size: 0.75rem; */
 }
@@ -64,7 +88,8 @@
 }
 
 .station-main {
-  font-size: 0.9rem;
+  font-size: 1.1rem;
+  line-height: 1.1;
 }
 
 .station-main-ta {
@@ -75,10 +100,13 @@
 }
 
 .station-sub {
-  font-size: 0.75rem;
+  font-size: 0.8rem;
+  color: #555;
+  line-height: 1.1;
 }
 
 .station-sub-ta {
+  font-size: 0.8rem;
   font-family: 'Mukta Malar', 'Latha', 'Noto Sans Tamil', sans-serif;
   color: #555;
   line-height: 1.1;
@@ -102,7 +130,7 @@
 .step-ta {
   font-family: 'Mukta Malar', 'Latha', 'Noto Sans Tamil', sans-serif;
   font-size: 0.8rem;
-  color: #555;
+  /* color: #555; */
   margin-top: 0.1rem;
   margin-bottom: 0.1rem;
   line-height: 1.2;
@@ -110,13 +138,45 @@
 
 .getting-down {
   font-size: 0.8rem;
-  color: #555;
-  margin-left: 3.9rem;
+  color: #999;
+  /* margin-left: 1.4rem; */
+  line-height: 1.1;
 }
 
 .getting-down-ta {
   font-family: 'Mukta Malar', 'Latha', 'Noto Sans Tamil', sans-serif;
   font-size: 0.8rem;
-  color: #555;
-  margin-left: 3.9rem;
+  color: #999;
+  /* margin-left: 1.4rem; */
+  line-height: 1.1;
 }
+
+.line {
+  height: calc(100% - 22px);
+  width: 6px;
+  background-color: black;
+  position: absolute;
+  margin-left: 8px;
+  top: 22px;
+}
+
+/* Specific classes for journey timeline positioning */
+.journey-row {
+  position: relative;
+}
+
+.journey-timeline-col {
+  position: relative;
+  min-height: 100%;
+}
+
+.end-station {
+  margin-bottom: 5rem;
+}
+
+/* @media (min-width: 992px) { */
+  .journey-col-1 {
+    flex: 0 0 33px !important;
+    max-width: 33px !important;
+  }
+/* } */

@@ -7,36 +7,59 @@
 <div class="journey-container d-flex flex-column align-items-start mt-2" *ngIf="journeyPlan.length">
   <ng-container *ngFor="let entry of journeyPlan; let i = index">
     <!-- Start Station -->
-    <div *ngIf="entry.isFrom" class="d-flex align-items-start mb-2">
-      <i class="bi bi-circle start-point-indicator me-3"></i>
-      <div>
-        <div class="station-main fw-bold" *ngIf="language == 'en'">{{ entry.station }}</div>
-        <div class="station-main-ta fw-bold" *ngIf="language == 'ta'">{{ entry.stationTamil }}</div>
-        <div class="station-sub text-muted small mt-1">
-          <ng-container *ngFor="let step of entry.transitSteps">
-            <div class="d-flex align-items-center mb-1">
-              <i class="bi bi-arrow-left-right me-2" style="font-size: 1em;"></i>
-              <span [innerHTML]="step" *ngIf="language == 'en'"></span>
-              <span [innerHTML]="step" *ngIf="language == 'ta'" class="step-ta"></span>
-            </div>
-          </ng-container>
+    <div *ngIf="entry.isFrom" class="d-flex align-items-start">
+      <div class="row journey-row">
+        <div class="col-auto journey-timeline-col journey-col-1">
+          <i class="bi bi-record-circle start-point-indicator me-3" [style.color]="getLineColor(entry.line)"></i>
+          <div class="line" [style.background-color]="getLineColor(entry.line)"></div>
+        </div>
+        <div class="col">
+          <div class="station-main fw-bold" *ngIf="language == 'en'">{{ entry.station }}</div>
+          <div class="station-main-ta fw-bold" *ngIf="language == 'ta'">{{ entry.stationTamil }}</div>
+          <div class="station-sub small mt-1">
+            <ng-container *ngFor="let step of entry.transitSteps">
+              <div class="d-flex mb-1">
+                <i class="bi bi-person-walking me-2" style="font-size: 1em;"></i>
+                <span [innerHTML]="step" *ngIf="language == 'en'"></span>
+                <span [innerHTML]="step" *ngIf="language == 'ta'" class="step-ta"></span>
+              </div>
+            </ng-container>
+          </div>
         </div>
       </div>
     </div>
     <!-- Transit Section -->
-    <div *ngIf="entry.isTransit" class="d-flex align-items-start mt-2">
-      <i class="bi bi-circle intermediate-point-indicator me-3"></i>
-      <div>
-        <div class="station-main fw-bold" *ngIf="language == 'en'">{{ entry.station }}</div>
-        <div class="station-main-ta fw-bold" *ngIf="language == 'ta'">{{ entry.stationTamil }}</div>
-        <div class="station-sub text-muted small mt-1">
-          <ng-container *ngFor="let step of entry.transitSteps">
-            <div class="d-flex align-items-center mb-1">
-              <i class="bi bi-arrow-left-right me-2" style="font-size: 1em;"></i>
-              <span [innerHTML]="step" *ngIf="language == 'en'"></span>
-              <span [innerHTML]="step" *ngIf="language == 'ta'" class="step-ta"></span>
-            </div>
-          </ng-container>
+    <div *ngIf="entry.isTransit" class="d-flex align-items-start">
+      <div class="row journey-row">
+        <div class="col-auto journey-timeline-col journey-col-1">
+          <i class="bi bi-record-circle intermediate-point-indicator me-3" [style.color]="getLineColor(entry.line)"></i>
+          <div class="journey-line-transit"></div>
+        </div>
+        <div class="col">
+          <div class="station-main fw-bold" *ngIf="language == 'en'">{{ entry.station }}</div>
+          <div class="station-main-ta fw-bold" *ngIf="language == 'ta'">{{ entry.stationTamil }}</div>
+          <div class="station-sub small mt-1">
+            <ng-container *ngFor="let step of entry.transitSteps">
+              <div class="d-flex mb-1">
+                <i class="bi bi-person-walking me-2" style="font-size: 1em;"></i>
+                <span [innerHTML]="step" *ngIf="language == 'en'"></span>
+                <span [innerHTML]="step" *ngIf="language == 'ta'" class="step-ta"></span>
+              </div>
+            </ng-container>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Transit Station again as start of next leg (no line, just icon and name) -->
+    <div *ngIf="entry.isTransit" class="d-flex align-items-start">
+      <div class="row journey-row">
+        <div class="col-auto journey-timeline-col journey-col-1">
+          <i class="bi bi-record-circle intermediate-point-indicator me-3" [style.color]="getLineColor(journeyPlan[i+1].line || '')"></i>
+          <div class="line" [style.background-color]="getLineColor(journeyPlan[i+1].line || '')"></div>
+        </div>
+        <div class="col">
+          <div class="station-main fw-bold" *ngIf="language == 'en'">{{ entry.station }}</div>
+          <div class="station-main-ta fw-bold" *ngIf="language == 'ta'">{{ entry.stationTamil }}</div>
         </div>
       </div>
     </div>
@@ -46,41 +69,43 @@
         <div class="journey-line" [style.background-color]="getLineColor(entry.line)"></div>
       </div>
       <div class="journey-stations-list flex-grow-1">
-        <div class="station-traverse text-secondary small" *ngIf="language == 'en'">
+        <div class="station-traverse" *ngIf="language == 'en'">
           {{ entry.station }}
         </div>
-        <div class="station-traverse-ta text-secondary small" *ngIf="language == 'ta'">
+        <div class="station-traverse-ta" *ngIf="language == 'ta'">
           {{ entry.stationTamil }}
         </div>
       </div>
     </div>
     <!-- Get down message if next station is transit or destination -->
-    <div class="station-sub text-muted small mt-1" *ngIf="i + 1 < journeyPlan.length && (journeyPlan[i + 1].isTransit || journeyPlan[i + 1].isTo)">
-      <div class="d-flex align-items-center mb-1">
-        <!-- Message for transit station -->
-        <span *ngIf="journeyPlan[i + 1].isTransit && language == 'en'" class="getting-down">
-          Get down at <span class="fw-bold">{{ journeyPlan[i + 1].station }}</span> for transit
-        </span>
-        <span *ngIf="journeyPlan[i + 1].isTransit && language == 'ta'" class="getting-down-ta">
-          தடம் மாற அடுத்த ரயில் நிலையம் <span class="fw-bold">{{ journeyPlan[i + 1].stationTamil }}</span> இல் இறங்கவும்
-        </span>
-        <!-- Message for destination station -->
-        <span *ngIf="journeyPlan[i + 1].isTo && language == 'en'" class="getting-down">
-          Get down at next station
-        </span>
-        <span *ngIf="journeyPlan[i + 1].isTo && language == 'ta'" class="getting-down-ta">
-          அடுத்த ரயில் நிலையத்தில் இறங்கவும்
-        </span>
+    <div *ngIf="i + 1 < journeyPlan.length && (journeyPlan[i + 1].isTransit || journeyPlan[i + 1].isTo)" class="d-flex align-items-center">
+      <div class="journey-line-container d-flex flex-column align-items-center">
+        <div class="journey-getdown-line" [style.background]="getLineColor(journeyPlan[i+1].line || '')"></div>
+      </div>
+      <div class="journey-stations-list flex-grow-1">
+      <span *ngIf="journeyPlan[i + 1].isTransit && language == 'en'" class="getting-down">
+        Get down at <span class="fw-bold">{{ journeyPlan[i + 1].station }}</span> for transit
+      </span>
+      <span *ngIf="journeyPlan[i + 1].isTransit && language == 'ta'" class="getting-down-ta">
+        தடம் மாற <span class="fw-bold">{{ journeyPlan[i + 1].stationTamil }}</span>வில் இறங்கவும்
+        <!-- தடம் மாற அடுத்த ரயில் நிலையத்தில் இறங்கவும் -->
+      </span>
+      <span *ngIf="journeyPlan[i + 1].isTo && language == 'en'" class="getting-down">
+        Get down at next station
+      </span>
+      <span *ngIf="journeyPlan[i + 1].isTo && language == 'ta'" class="getting-down-ta">
+        அடுத்த ரயில் நிலையத்தில் இறங்கவும்
+      </span>
       </div>
     </div>
     <!-- End Station -->
-    <div *ngIf="entry.isTo" class="d-flex align-items-center mb-4 mt-2">
-      <i class="bi bi-circle start-point-indicator me-3"></i>
+    <div *ngIf="entry.isTo" class="d-flex align-items-center end-station">
+      <i class="bi bi-record-circle start-point-indicator me-3" [style.color]="getLineColor(entry.line)"></i>
       <div>
         <div class="station-main fw-bold" *ngIf="language == 'en'">{{ entry.station }}</div>
         <div class="station-main-ta fw-bold" *ngIf="language == 'ta'">{{ entry.stationTamil }}</div>
-        <div class="station-sub text-muted small" *ngIf="language == 'en'">Destination</div>
-        <div class="station-sub-ta text-muted small" *ngIf="language == 'ta'">இலக்கு</div>
+        <!-- <div class="station-sub" *ngIf="language == 'en'">Destination</div> -->
+        <!-- <div class="station-sub-ta" *ngIf="language == 'ta'">இலக்கு</div> -->
       </div>
     </div>
   </ng-container>

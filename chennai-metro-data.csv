@@ -1,65 +1,65 @@
 ﻿#,station,stationTamil,line,direction,sequence,platform,level,type,isTerminal,duration,terminalStation,terminalStationTamil,id
-1,Chennai Airport,சென்னை விமான நிலையம்,Blue,onward,1,P1,L1,train,TRUE,2,Wimco Nagar Depot Metro,விம்கோ நகர் டேப்பொ மெட்ரோ,Chennai Airport - P1 - L1
+1,Chennai Airport,சென்னை விமான நிலையம்,Blue,onward,1,P1,L1,train,TRUE,,Wimco Nagar Depot Metro,விம்கோ நகர் டேப்பொ மெட்ரோ,Chennai Airport - P1 - L1
 2,Meenambakkam Metro,மீனம்பாக்கம் மெட்ரோ,Blue,onward,2,P2,L1,train,FALSE,2,Wimco Nagar Depot Metro,விம்கோ நகர் டேப்பொ மெட்ரோ,Meenambakkam Metro - P2 - L1
-3,OTA Nanganallur Road,OTA நங்கநல்லூர் ரோட்,Blue,onward,3,P2,L1,train,FALSE,2,Wimco Nagar Depot Metro,விம்கோ நகர் டேப்பொ மெட்ரோ,OTA Nanganallur Road - P2 - L1
+3,OTA Nanganallur Road,OTA நங்கநல்லூர் ரோட்,Blue,onward,3,P2,L1,train,FALSE,5,Wimco Nagar Depot Metro,விம்கோ நகர் டேப்பொ மெட்ரோ,OTA Nanganallur Road - P2 - L1
 4,Arignar Anna Alandur Metro,அறிஞர் அண்ணா ஆலந்தூர் மெட்ரோ,Blue,onward,4,P2,L1,train,FALSE,2,Wimco Nagar Depot Metro,விம்கோ நகர் டேப்பொ மெட்ரோ,Arignar Anna Alandur Metro - P2 - L1
-5,Guindy Metro,கிண்டி மெட்ரோ,Blue,onward,5,P2,L1,train,FALSE,2,Wimco Nagar Depot Metro,விம்கோ நகர் டேப்பொ மெட்ரோ,Guindy Metro - P2 - L1
-6,Little Mount,லிட்டில் மவுண்ட்,Blue,onward,6,P2,L1,train,FALSE,2,Wimco Nagar Depot Metro,விம்கோ நகர் டேப்பொ மெட்ரோ,Little Mount - P2 - L1
+5,Guindy Metro,கிண்டி மெட்ரோ,Blue,onward,5,P2,L1,train,FALSE,3,Wimco Nagar Depot Metro,விம்கோ நகர் டேப்பொ மெட்ரோ,Guindy Metro - P2 - L1
+6,Little Mount,லிட்டில் மவுண்ட்,Blue,onward,6,P2,L1,train,FALSE,3,Wimco Nagar Depot Metro,விம்கோ நகர் டேப்பொ மெட்ரோ,Little Mount - P2 - L1
 7,Saidapet,சைதாபேட்டை,Blue,onward,7,P2,B1,train,FALSE,2,Wimco Nagar Depot Metro,விம்கோ நகர் டேப்பொ மெட்ரோ,Saidapet - P2 - B1
-8,Nandanam,நந்தனம்,Blue,onward,8,P2,B1,train,FALSE,2,Wimco Nagar Depot Metro,விம்கோ நகர் டேப்பொ மெட்ரோ,Nandanam - P2 - B1
+8,Nandanam,நந்தனம்,Blue,onward,8,P2,B1,train,FALSE,3,Wimco Nagar Depot Metro,விம்கோ நகர் டேப்பொ மெட்ரோ,Nandanam - P2 - B1
 9,Teynampet,தேனாம்பேட்டை,Blue,onward,9,P2,B1,train,FALSE,2,Wimco Nagar Depot Metro,விம்கோ நகர் டேப்பொ மெட்ரோ,Teynampet - P2 - B1
 10,AG-DMS,ஏஜி-டிஎம்எஸ்,Blue,onward,10,P2,B1,train,FALSE,2,Wimco Nagar Depot Metro,விம்கோ நகர் டேப்பொ மெட்ரோ,AG-DMS - P2 - B1
-11,Thousand Lights,ஆயிரம் விளக்கு,Blue,onward,11,P2,B1,train,FALSE,2,Wimco Nagar Depot Metro,விம்கோ நகர் டேப்பொ மெட்ரோ,Thousand Lights - P2 - B1
+11,Thousand Lights,ஆயிரம் விளக்கு,Blue,onward,11,P2,B1,train,FALSE,4,Wimco Nagar Depot Metro,விம்கோ நகர் டேப்பொ மெட்ரோ,Thousand Lights - P2 - B1
 12,LIC,எல் ஐ சி,Blue,onward,12,P2,B1,train,FALSE,2,Wimco Nagar Depot Metro,விம்கோ நகர் டேப்பொ மெட்ரோ,LIC - P2 - B1
 13,Government Estate,அரசினர் தோட்டம்,Blue,onward,13,P2,B1,train,FALSE,2,Wimco Nagar Depot Metro,விம்கோ நகர் டேப்பொ மெட்ரோ,Government Estate - P2 - B1
-14,Puratchi Thalaivar Dr. MG Ramachandran Central Metro,புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ,Blue,onward,14,P6,B2,train,FALSE,2,Wimco Nagar Depot Metro,விம்கோ நகர் டேப்பொ மெட்ரோ,Puratchi Thalaivar Dr. MG Ramachandran Central Metro - P6 - B2
-15,Highcourt,ஹைகோர்ட்,Blue,onward,15,P2,B1,train,FALSE,2,Wimco Nagar Depot Metro,விம்கோ நகர் டேப்பொ மெட்ரோ,Highcourt - P2 - B1
+14,Puratchi Thalaivar Dr. MG Ramachandran Central Metro,புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ,Blue,onward,14,P6,B2,train,FALSE,4,Wimco Nagar Depot Metro,விம்கோ நகர் டேப்பொ மெட்ரோ,Puratchi Thalaivar Dr. MG Ramachandran Central Metro - P6 - B2
+15,Highcourt,ஹைகோர்ட்,Blue,onward,15,P2,B1,train,FALSE,3,Wimco Nagar Depot Metro,விம்கோ நகர் டேப்பொ மெட்ரோ,Highcourt - P2 - B1
 16,Mannadi,மண்ணடி,Blue,onward,16,P2,B1,train,FALSE,2,Wimco Nagar Depot Metro,விம்கோ நகர் டேப்பொ மெட்ரோ,Mannadi - P2 - B1
-17,Washermanpet Metro,வண்ணாரபேட்டை மெட்ரோ,Blue,onward,17,P2,B1,train,FALSE,2,Wimco Nagar Depot Metro,விம்கோ நகர் டேப்பொ மெட்ரோ,Washermanpet Metro - P2 - B1
+17,Washermanpet Metro,வண்ணாரபேட்டை மெட்ரோ,Blue,onward,17,P2,B1,train,FALSE,3,Wimco Nagar Depot Metro,விம்கோ நகர் டேப்பொ மெட்ரோ,Washermanpet Metro - P2 - B1
 18,Sir Thiyagaraya College Metro,சர் தியாகராயா கல்லூரி மெட்ரோ,Blue,onward,18,P2,B1,train,FALSE,2,Wimco Nagar Depot Metro,விம்கோ நகர் டேப்பொ மெட்ரோ,Sir Thiyagaraya College Metro - P2 - B1
 19,Tondiarpet Metro,தண்டையார்பேட்டை மெட்ரோ,Blue,onward,19,P2,B1,train,FALSE,2,Wimco Nagar Depot Metro,விம்கோ நகர் டேப்பொ மெட்ரோ,Tondiarpet Metro - P2 - B1
 20,New Washermanpet Metro,புது வண்ணாரபேட்டை மெட்ரோ,Blue,onward,20,P2,L1,train,FALSE,2,Wimco Nagar Depot Metro,விம்கோ நகர் டேப்பொ மெட்ரோ,New Washermanpet Metro - P2 - L1
 21,Tollgate Metro,சுங்கச்சாவடி மெட்ரோ,Blue,onward,21,P2,L1,train,FALSE,2,Wimco Nagar Depot Metro,விம்கோ நகர் டேப்பொ மெட்ரோ,Tollgate Metro - P2 - L1
 22,Kaladipet Metro,காலடிபேட்டை மெட்ரோ,Blue,onward,22,P2,L1,train,FALSE,2,Wimco Nagar Depot Metro,விம்கோ நகர் டேப்பொ மெட்ரோ,Kaladipet Metro - P2 - L1
 23,Thiruvottriyur Theradi Metro,திருவொற்றியூர் தேரடி மெட்ரோ,Blue,onward,23,P2,L1,train,FALSE,2,Wimco Nagar Depot Metro,விம்கோ நகர் டேப்பொ மெட்ரோ,Thiruvottriyur Theradi Metro - P2 - L1
-24,Thiruvottriyur Metro,திருவொற்றியூர் மெட்ரோ,Blue,onward,24,P2,L1,train,FALSE,2,Wimco Nagar Depot Metro,விம்கோ நகர் டேப்பொ மெட்ரோ,Thiruvottriyur Metro - P2 - L1
+24,Thiruvottriyur Metro,திருவொற்றியூர் மெட்ரோ,Blue,onward,24,P2,L1,train,FALSE,3,Wimco Nagar Depot Metro,விம்கோ நகர் டேப்பொ மெட்ரோ,Thiruvottriyur Metro - P2 - L1
 25,Wimco Nagar Metro,விம்கோ நகர் மெட்ரோ,Blue,onward,25,P2,L1,train,FALSE,2,Wimco Nagar Depot Metro,விம்கோ நகர் டேப்பொ மெட்ரோ,Wimco Nagar Metro - P2 - L1
 26,Wimco Nagar Depot Metro,விம்கோ நகர் டேப்பொ மெட்ரோ,Blue,onward,26,P1,L1,train,TRUE,2,Wimco Nagar Depot Metro,விம்கோ நகர் டேப்பொ மெட்ரோ,Wimco Nagar Depot Metro - P1 - L1
-27,Wimco Nagar Depot Metro,விம்கோ நகர் டேப்பொ மெட்ரோ,Blue,return,1,P1,L1,train,TRUE,2,Chennai Airport,சென்னை விமான நிலையம்,Wimco Nagar Depot Metro - P1 - L1
+27,Wimco Nagar Depot Metro,விம்கோ நகர் டேப்பொ மெட்ரோ,Blue,return,1,P1,L1,train,TRUE,,Chennai Airport,சென்னை விமான நிலையம்,Wimco Nagar Depot Metro - P1 - L1
 28,Wimco Nagar Metro,விம்கோ நகர் மெட்ரோ,Blue,return,2,P1,L1,train,FALSE,2,Chennai Airport,சென்னை விமான நிலையம்,Wimco Nagar Metro - P1 - L1
 29,Thiruvottriyur Metro,திருவொற்றியூர் மெட்ரோ,Blue,return,3,P1,L1,train,FALSE,2,Chennai Airport,சென்னை விமான நிலையம்,Thiruvottriyur Metro - P1 - L1
-30,Thiruvottriyur Theradi Metro,திருவொற்றியூர் தேரடி மெட்ரோ,Blue,return,4,P1,L1,train,FALSE,2,Chennai Airport,சென்னை விமான நிலையம்,Thiruvottriyur Theradi Metro - P1 - L1
+30,Thiruvottriyur Theradi Metro,திருவொற்றியூர் தேரடி மெட்ரோ,Blue,return,4,P1,L1,train,FALSE,3,Chennai Airport,சென்னை விமான நிலையம்,Thiruvottriyur Theradi Metro - P1 - L1
 31,Kaladipet Metro,காலடிபேட்டை மெட்ரோ,Blue,return,5,P1,L1,train,FALSE,2,Chennai Airport,சென்னை விமான நிலையம்,Kaladipet Metro - P1 - L1
 32,Tollgate Metro,சுங்கச்சாவடி மெட்ரோ,Blue,return,6,P1,L1,train,FALSE,2,Chennai Airport,சென்னை விமான நிலையம்,Tollgate Metro - P1 - L1
 33,New Washermanpet Metro,புது வண்ணாரபேட்டை மெட்ரோ,Blue,return,7,P1,L1,train,FALSE,2,Chennai Airport,சென்னை விமான நிலையம்,New Washermanpet Metro - P1 - L1
 34,Tondiarpet Metro,தண்டையார்பேட்டை மெட்ரோ,Blue,return,8,P1,B1,train,FALSE,2,Chennai Airport,சென்னை விமான நிலையம்,Tondiarpet Metro - P1 - B1
 35,Sir Thiyagaraya College Metro,சர் தியாகராயா கல்லூரி மெட்ரோ,Blue,return,9,P1,B1,train,FALSE,2,Chennai Airport,சென்னை விமான நிலையம்,Sir Thiyagaraya College Metro - P1 - B1
 36,Washermanpet Metro,வண்ணாரபேட்டை மெட்ரோ,Blue,return,10,P1,B1,train,FALSE,2,Chennai Airport,சென்னை விமான நிலையம்,Washermanpet Metro - P1 - B1
-37,Mannadi,மண்ணடி,Blue,return,11,P1,B1,train,FALSE,2,Chennai Airport,சென்னை விமான நிலையம்,Mannadi - P1 - B1
+37,Mannadi,மண்ணடி,Blue,return,11,P1,B1,train,FALSE,3,Chennai Airport,சென்னை விமான நிலையம்,Mannadi - P1 - B1
 38,Highcourt,ஹைகோர்ட்,Blue,return,12,P1,B1,train,FALSE,2,Chennai Airport,சென்னை விமான நிலையம்,Highcourt - P1 - B1
-39,Puratchi Thalaivar Dr. MG Ramachandran Central Metro,புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ,Blue,return,13,P5,B2,train,FALSE,2,Chennai Airport,சென்னை விமான நிலையம்,Puratchi Thalaivar Dr. MG Ramachandran Central Metro - P5 - B2
-40,Government Estate,அரசினர் தோட்டம்,Blue,return,14,P1,B1,train,FALSE,2,Chennai Airport,சென்னை விமான நிலையம்,Government Estate - P1 - B1
+39,Puratchi Thalaivar Dr. MG Ramachandran Central Metro,புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ,Blue,return,13,P5,B2,train,FALSE,3,Chennai Airport,சென்னை விமான நிலையம்,Puratchi Thalaivar Dr. MG Ramachandran Central Metro - P5 - B2
+40,Government Estate,அரசினர் தோட்டம்,Blue,return,14,P1,B1,train,FALSE,4,Chennai Airport,சென்னை விமான நிலையம்,Government Estate - P1 - B1
 41,LIC,எல் ஐ சி,Blue,return,15,P1,B1,train,FALSE,2,Chennai Airport,சென்னை விமான நிலையம்,LIC - P1 - B1
 42,Thousand Lights,ஆயிரம் விளக்கு,Blue,return,16,P1,B1,train,FALSE,2,Chennai Airport,சென்னை விமான நிலையம்,Thousand Lights - P1 - B1
-43,AG-DMS,ஏஜி-டிஎம்எஸ்,Blue,return,17,P1,B1,train,FALSE,2,Chennai Airport,சென்னை விமான நிலையம்,AG-DMS - P1 - B1
+43,AG-DMS,ஏஜி-டிஎம்எஸ்,Blue,return,17,P1,B1,train,FALSE,4,Chennai Airport,சென்னை விமான நிலையம்,AG-DMS - P1 - B1
 44,Teynampet,தேனாம்பேட்டை,Blue,return,18,P1,B1,train,FALSE,2,Chennai Airport,சென்னை விமான நிலையம்,Teynampet - P1 - B1
 45,Nandanam,நந்தனம்,Blue,return,19,P1,B1,train,FALSE,2,Chennai Airport,சென்னை விமான நிலையம்,Nandanam - P1 - B1
-46,Saidapet,சைதாபேட்டை,Blue,return,20,P1,B1,train,FALSE,2,Chennai Airport,சென்னை விமான நிலையம்,Saidapet - P1 - B1
+46,Saidapet,சைதாபேட்டை,Blue,return,20,P1,B1,train,FALSE,3,Chennai Airport,சென்னை விமான நிலையம்,Saidapet - P1 - B1
 47,Little Mount,லிட்டில் மவுண்ட்,Blue,return,21,P1,L1,train,FALSE,2,Chennai Airport,சென்னை விமான நிலையம்,Little Mount - P1 - L1
-48,Guindy Metro,கிண்டி மெட்ரோ,Blue,return,22,P1,L1,train,FALSE,2,Chennai Airport,சென்னை விமான நிலையம்,Guindy Metro - P1 - L1
-49,Arignar Anna Alandur Metro,அறிஞர் அண்ணா ஆலந்தூர் மெட்ரோ,Blue,return,23,P1,L1,train,FALSE,2,Chennai Airport,சென்னை விமான நிலையம்,Arignar Anna Alandur Metro - P1 - L1
+48,Guindy Metro,கிண்டி மெட்ரோ,Blue,return,22,P1,L1,train,FALSE,3,Chennai Airport,சென்னை விமான நிலையம்,Guindy Metro - P1 - L1
+49,Arignar Anna Alandur Metro,அறிஞர் அண்ணா ஆலந்தூர் மெட்ரோ,Blue,return,23,P1,L1,train,FALSE,3,Chennai Airport,சென்னை விமான நிலையம்,Arignar Anna Alandur Metro - P1 - L1
 50,OTA Nanganallur Road,OTA நங்கநல்லூர் ரோட்,Blue,return,24,P1,L1,train,FALSE,2,Chennai Airport,சென்னை விமான நிலையம்,OTA Nanganallur Road - P1 - L1
-51,Meenambakkam Metro,மீனம்பாக்கம் மெட்ரோ,Blue,return,25,P1,L1,train,FALSE,2,Chennai Airport,சென்னை விமான நிலையம்,Meenambakkam Metro - P1 - L1
+51,Meenambakkam Metro,மீனம்பாக்கம் மெட்ரோ,Blue,return,25,P1,L1,train,FALSE,5,Chennai Airport,சென்னை விமான நிலையம்,Meenambakkam Metro - P1 - L1
 52,Chennai Airport,சென்னை விமான நிலையம்,Blue,return,26,P1,L1,train,TRUE,2,Chennai Airport,சென்னை விமான நிலையம்,Chennai Airport - P1 - L1
-53,St. Thomas Mount Metro,பரங்கிமலை மெட்ரோ,Green,onward,1,P1,L2,train,TRUE,2,Puratchi Thalaivar Dr. MG Ramachandran Central Metro,புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ,St. Thomas Mount Metro - P1 - L2
-54,Arignar Anna Alandur Metro,அறிஞர் அண்ணா ஆலந்தூர் மெட்ரோ,Green,onward,2,P4,L2,train,FALSE,2,Puratchi Thalaivar Dr. MG Ramachandran Central Metro,புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ,Arignar Anna Alandur Metro - P4 - L2
-55,Ekkattuthangal,ஈக்காட்டுதாங்கல்,Green,onward,3,P2,L1,train,FALSE,2,Puratchi Thalaivar Dr. MG Ramachandran Central Metro,புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ,Ekkattuthangal - P2 - L1
-56,Ashok Nagar,அசோக் நகர்,Green,onward,4,P2,L1,train,FALSE,2,Puratchi Thalaivar Dr. MG Ramachandran Central Metro,புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ,Ashok Nagar - P2 - L1
-57,Vadapalani,வடபழனி,Green,onward,5,P2,L1,train,FALSE,2,Puratchi Thalaivar Dr. MG Ramachandran Central Metro,புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ,Vadapalani - P2 - L1
-58,Arumbakkam,அரும்பாக்கம்,Green,onward,6,P2,L1,train,FALSE,2,Puratchi Thalaivar Dr. MG Ramachandran Central Metro,புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ,Arumbakkam - P2 - L1
-59,Puratchi Thalaivi Dr.J.Jayalalitha Koyambedu CMBT Metro,புரட்சி தலைவி டாக்டர் ஜெ. ஜெயலலிதா புறநகர் பேருந்து நிலையம் மெட்ரோ,Green,onward,7,P2,L1,train,FALSE,2,Puratchi Thalaivar Dr. MG Ramachandran Central Metro,புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ,Puratchi Thalaivi Dr.J.Jayalalitha Koyambedu CMBT Metro - P2 - L1
-60,Koyambedu,கோயம்பேடு,Green,onward,8,P2,L1,train,FALSE,2,Puratchi Thalaivar Dr. MG Ramachandran Central Metro,புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ,Koyambedu - P2 - L1
-61,Thirumangalam,திருமங்கலம்,Green,onward,9,P2,B1,train,FALSE,2,Puratchi Thalaivar Dr. MG Ramachandran Central Metro,புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ,Thirumangalam - P2 - B1
+53,St. Thomas Mount Metro,பரங்கிமலை மெட்ரோ,Green,onward,1,P1,L2,train,TRUE,,Puratchi Thalaivar Dr. MG Ramachandran Central Metro,புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ,St. Thomas Mount Metro - P1 - L2
+54,Arignar Anna Alandur Metro,அறிஞர் அண்ணா ஆலந்தூர் மெட்ரோ,Green,onward,2,P4,L2,train,FALSE,3,Puratchi Thalaivar Dr. MG Ramachandran Central Metro,புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ,Arignar Anna Alandur Metro - P4 - L2
+55,Ekkattuthangal,ஈக்காட்டுதாங்கல்,Green,onward,3,P2,L1,train,FALSE,3,Puratchi Thalaivar Dr. MG Ramachandran Central Metro,புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ,Ekkattuthangal - P2 - L1
+56,Ashok Nagar,அசோக் நகர்,Green,onward,4,P2,L1,train,FALSE,3,Puratchi Thalaivar Dr. MG Ramachandran Central Metro,புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ,Ashok Nagar - P2 - L1
+57,Vadapalani,வடபழனி,Green,onward,5,P2,L1,train,FALSE,4,Puratchi Thalaivar Dr. MG Ramachandran Central Metro,புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ,Vadapalani - P2 - L1
+58,Arumbakkam,அரும்பாக்கம்,Green,onward,6,P2,L1,train,FALSE,3,Puratchi Thalaivar Dr. MG Ramachandran Central Metro,புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ,Arumbakkam - P2 - L1
+59,Puratchi Thalaivi Dr.J.Jayalalitha Koyambedu CMBT Metro,புரட்சி தலைவி டாக்டர் ஜெ. ஜெயலலிதா புறநகர் பேருந்து நிலையம் மெட்ரோ,Green,onward,7,P2,L1,train,FALSE,3,Puratchi Thalaivar Dr. MG Ramachandran Central Metro,புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ,Puratchi Thalaivi Dr.J.Jayalalitha Koyambedu CMBT Metro - P2 - L1
+60,Koyambedu,கோயம்பேடு,Green,onward,8,P2,L1,train,FALSE,3,Puratchi Thalaivar Dr. MG Ramachandran Central Metro,புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ,Koyambedu - P2 - L1
+61,Thirumangalam,திருமங்கலம்,Green,onward,9,P2,B1,train,FALSE,4,Puratchi Thalaivar Dr. MG Ramachandran Central Metro,புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ,Thirumangalam - P2 - B1
 62,Anna Nagar Tower,அண்ணா நகர் பூங்கா கோபுரம்,Green,onward,10,P2,B1,train,FALSE,2,Puratchi Thalaivar Dr. MG Ramachandran Central Metro,புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ,Anna Nagar Tower - P2 - B1
 63,Anna Nagar East,அண்ணாநகர் கிழக்கு,Green,onward,11,P2,B1,train,FALSE,2,Puratchi Thalaivar Dr. MG Ramachandran Central Metro,புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ,Anna Nagar East - P2 - B1
 64,Shenoy Nagar,செனாய் நகர்,Green,onward,12,P2,B1,train,FALSE,2,Puratchi Thalaivar Dr. MG Ramachandran Central Metro,புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ,Shenoy Nagar - P2 - B1
@@ -67,9 +67,9 @@
 66,Kilpauk,கீழ்பாக்கம்,Green,onward,14,P2,B1,train,FALSE,2,Puratchi Thalaivar Dr. MG Ramachandran Central Metro,புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ,Kilpauk - P2 - B1
 67,Nehru Park,நேரு பூங்கா,Green,onward,15,P2,B1,train,FALSE,2,Puratchi Thalaivar Dr. MG Ramachandran Central Metro,புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ,Nehru Park - P2 - B1
 68,Egmore,எழும்பூர்,Green,onward,16,P2,B1,train,FALSE,2,Puratchi Thalaivar Dr. MG Ramachandran Central Metro,புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ,Egmore - P2 - B1
-69,Puratchi Thalaivar Dr. MG Ramachandran Central Metro,புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ,Green,onward,17,P1,B1,train,TRUE,2,Puratchi Thalaivar Dr. MG Ramachandran Central Metro,புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ,Puratchi Thalaivar Dr. MG Ramachandran Central Metro - P1 - B1
-70,Puratchi Thalaivar Dr. MG Ramachandran Central Metro,புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ,Green,return,1,P1,B1,train,TRUE,2,St. Thomas Mount Metro,பரங்கிமலை மெட்ரோ,Puratchi Thalaivar Dr. MG Ramachandran Central Metro - P1 - B1
-71,Egmore,எழும்பூர்,Green,return,2,P1,B1,train,FALSE,2,St. Thomas Mount Metro,பரங்கிமலை மெட்ரோ,Egmore - P1 - B1
+69,Puratchi Thalaivar Dr. MG Ramachandran Central Metro,புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ,Green,onward,17,P1,B1,train,TRUE,4,Puratchi Thalaivar Dr. MG Ramachandran Central Metro,புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ,Puratchi Thalaivar Dr. MG Ramachandran Central Metro - P1 - B1
+70,Puratchi Thalaivar Dr. MG Ramachandran Central Metro,புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ,Green,return,1,P1,B1,train,TRUE,,St. Thomas Mount Metro,பரங்கிமலை மெட்ரோ,Puratchi Thalaivar Dr. MG Ramachandran Central Metro - P1 - B1
+71,Egmore,எழும்பூர்,Green,return,2,P1,B1,train,FALSE,4,St. Thomas Mount Metro,பரங்கிமலை மெட்ரோ,Egmore - P1 - B1
 72,Nehru Park,நேரு பூங்கா,Green,return,3,P1,B1,train,FALSE,2,St. Thomas Mount Metro,பரங்கிமலை மெட்ரோ,Nehru Park - P1 - B1
 73,Kilpauk,கீழ்பாக்கம்,Green,return,4,P1,B1,train,FALSE,2,St. Thomas Mount Metro,பரங்கிமலை மெட்ரோ,Kilpauk - P1 - B1
 74,Pachaiyappa's College,பச்சையப்பன் கல்லூரி,Green,return,5,P1,B1,train,FALSE,2,St. Thomas Mount Metro,பரங்கிமலை மெட்ரோ,Pachaiyappa's College - P1 - B1
@@ -77,25 +77,25 @@
 76,Anna Nagar East,அண்ணாநகர் கிழக்கு,Green,return,7,P1,B1,train,FALSE,2,St. Thomas Mount Metro,பரங்கிமலை மெட்ரோ,Anna Nagar East - P1 - B1
 77,Anna Nagar Tower,அண்ணா நகர் பூங்கா கோபுரம்,Green,return,8,P1,B1,train,FALSE,2,St. Thomas Mount Metro,பரங்கிமலை மெட்ரோ,Anna Nagar Tower - P1 - B1
 78,Thirumangalam,திருமங்கலம்,Green,return,9,P1,B1,train,FALSE,2,St. Thomas Mount Metro,பரங்கிமலை மெட்ரோ,Thirumangalam - P1 - B1
-79,Koyambedu,கோயம்பேடு,Green,return,10,P1,L1,train,FALSE,2,St. Thomas Mount Metro,பரங்கிமலை மெட்ரோ,Koyambedu - P1 - L1
-80,Puratchi Thalaivi Dr.J.Jayalalitha Koyambedu CMBT Metro,புரட்சி தலைவி டாக்டர் ஜெ. ஜெயலலிதா புறநகர் பேருந்து நிலையம் மெட்ரோ,Green,return,11,P1,L1,train,FALSE,2,St. Thomas Mount Metro,பரங்கிமலை மெட்ரோ,Puratchi Thalaivi Dr.J.Jayalalitha Koyambedu CMBT Metro - P1 - L1
-81,Arumbakkam,அரும்பாக்கம்,Green,return,12,P1,L1,train,FALSE,2,St. Thomas Mount Metro,பரங்கிமலை மெட்ரோ,Arumbakkam - P1 - L1
-82,Vadapalani,வடபழனி,Green,return,13,P1,L1,train,FALSE,2,St. Thomas Mount Metro,பரங்கிமலை மெட்ரோ,Vadapalani - P1 - L1
-83,Ashok Nagar,அசோக் நகர்,Green,return,14,P1,L1,train,FALSE,2,St. Thomas Mount Metro,பரங்கிமலை மெட்ரோ,Ashok Nagar - P1 - L1
-84,Ekkattuthangal,ஈக்காட்டுதாங்கல்,Green,return,15,P1,L1,train,FALSE,2,St. Thomas Mount Metro,பரங்கிமலை மெட்ரோ,Ekkattuthangal - P1 - L1
-85,Arignar Anna Alandur Metro,அறிஞர் அண்ணா ஆலந்தூர் மெட்ரோ,Green,return,16,P3,L2,train,FALSE,2,St. Thomas Mount Metro,பரங்கிமலை மெட்ரோ,Arignar Anna Alandur Metro - P3 - L2
-86,St. Thomas Mount Metro,பரங்கிமலை மெட்ரோ,Green,return,17,P1,L2,train,TRUE,2,St. Thomas Mount Metro,பரங்கிமலை மெட்ரோ,St. Thomas Mount Metro - P1 - L2
-87,Chennai Airport,சென்னை விமான நிலையம்,Inter,onward,1,P2,L1,train,TRUE,2,Puratchi Thalaivar Dr. MG Ramachandran Central Metro,புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ,Chennai Airport - P2 - L1 - Inter
+79,Koyambedu,கோயம்பேடு,Green,return,10,P1,L1,train,FALSE,4,St. Thomas Mount Metro,பரங்கிமலை மெட்ரோ,Koyambedu - P1 - L1
+80,Puratchi Thalaivi Dr.J.Jayalalitha Koyambedu CMBT Metro,புரட்சி தலைவி டாக்டர் ஜெ. ஜெயலலிதா புறநகர் பேருந்து நிலையம் மெட்ரோ,Green,return,11,P1,L1,train,FALSE,3,St. Thomas Mount Metro,பரங்கிமலை மெட்ரோ,Puratchi Thalaivi Dr.J.Jayalalitha Koyambedu CMBT Metro - P1 - L1
+81,Arumbakkam,அரும்பாக்கம்,Green,return,12,P1,L1,train,FALSE,3,St. Thomas Mount Metro,பரங்கிமலை மெட்ரோ,Arumbakkam - P1 - L1
+82,Vadapalani,வடபழனி,Green,return,13,P1,L1,train,FALSE,3,St. Thomas Mount Metro,பரங்கிமலை மெட்ரோ,Vadapalani - P1 - L1
+83,Ashok Nagar,அசோக் நகர்,Green,return,14,P1,L1,train,FALSE,4,St. Thomas Mount Metro,பரங்கிமலை மெட்ரோ,Ashok Nagar - P1 - L1
+84,Ekkattuthangal,ஈக்காட்டுதாங்கல்,Green,return,15,P1,L1,train,FALSE,3,St. Thomas Mount Metro,பரங்கிமலை மெட்ரோ,Ekkattuthangal - P1 - L1
+85,Arignar Anna Alandur Metro,அறிஞர் அண்ணா ஆலந்தூர் மெட்ரோ,Green,return,16,P3,L2,train,FALSE,3,St. Thomas Mount Metro,பரங்கிமலை மெட்ரோ,Arignar Anna Alandur Metro - P3 - L2
+86,St. Thomas Mount Metro,பரங்கிமலை மெட்ரோ,Green,return,17,P1,L2,train,TRUE,3,St. Thomas Mount Metro,பரங்கிமலை மெட்ரோ,St. Thomas Mount Metro - P1 - L2
+87,Chennai Airport,சென்னை விமான நிலையம்,Inter,onward,1,P2,L1,train,TRUE,,Puratchi Thalaivar Dr. MG Ramachandran Central Metro,புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ,Chennai Airport - P2 - L1 - Inter
 88,Meenambakkam Metro,மீனம்பாக்கம் மெட்ரோ,Inter,onward,2,P2,L1,train,FALSE,2,Puratchi Thalaivar Dr. MG Ramachandran Central Metro,புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ,Meenambakkam Metro - P2 - L1 - Inter
-89,OTA Nanganallur Road,OTA நங்கநல்லூர் ரோட்,Inter,onward,3,P2,L1,train,FALSE,2,Puratchi Thalaivar Dr. MG Ramachandran Central Metro,புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ,OTA Nanganallur Road - P2 - L1 - Inter
+89,OTA Nanganallur Road,OTA நங்கநல்லூர் ரோட்,Inter,onward,3,P2,L1,train,FALSE,5,Puratchi Thalaivar Dr. MG Ramachandran Central Metro,புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ,OTA Nanganallur Road - P2 - L1 - Inter
 90,Arignar Anna Alandur Metro,அறிஞர் அண்ணா ஆலந்தூர் மெட்ரோ,Inter,onward,4,P4,L2,train,FALSE,2,Puratchi Thalaivar Dr. MG Ramachandran Central Metro,புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ,Arignar Anna Alandur Metro - P4 - L2 - Inter
-91,Ekkattuthangal,ஈக்காட்டுதாங்கல்,Inter,onward,5,P2,L1,train,FALSE,2,Puratchi Thalaivar Dr. MG Ramachandran Central Metro,புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ,Ekkattuthangal - P2 - L1 - Inter
-92,Ashok Nagar,அசோக் நகர்,Inter,onward,6,P2,L1,train,FALSE,2,Puratchi Thalaivar Dr. MG Ramachandran Central Metro,புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ,Ashok Nagar - P2 - L1 - Inter
-93,Vadapalani,வடபழனி,Inter,onward,7,P2,L1,train,FALSE,2,Puratchi Thalaivar Dr. MG Ramachandran Central Metro,புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ,Vadapalani - P2 - L1 - Inter
-94,Arumbakkam,அரும்பாக்கம்,Inter,onward,8,P2,L1,train,FALSE,2,Puratchi Thalaivar Dr. MG Ramachandran Central Metro,புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ,Arumbakkam - P2 - L1 - Inter
-95,Puratchi Thalaivi Dr.J.Jayalalitha Koyambedu CMBT Metro,புரட்சி தலைவி டாக்டர் ஜெ. ஜெயலலிதா புறநகர் பேருந்து நிலையம் மெட்ரோ,Inter,onward,9,P2,L1,train,FALSE,2,Puratchi Thalaivar Dr. MG Ramachandran Central Metro,புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ,Puratchi Thalaivi Dr.J.Jayalalitha Koyambedu CMBT Metro - P2 - L1 - Inter
-96,Koyambedu,கோயம்பேடு,Inter,onward,10,P2,L1,train,FALSE,2,Puratchi Thalaivar Dr. MG Ramachandran Central Metro,புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ,Koyambedu - P2 - L1 - Inter
-97,Thirumangalam,திருமங்கலம்,Inter,onward,11,P2,B1,train,FALSE,2,Puratchi Thalaivar Dr. MG Ramachandran Central Metro,புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ,Thirumangalam - P2 - B1 - Inter
+91,Ekkattuthangal,ஈக்காட்டுதாங்கல்,Inter,onward,5,P2,L1,train,FALSE,3,Puratchi Thalaivar Dr. MG Ramachandran Central Metro,புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ,Ekkattuthangal - P2 - L1 - Inter
+92,Ashok Nagar,அசோக் நகர்,Inter,onward,6,P2,L1,train,FALSE,3,Puratchi Thalaivar Dr. MG Ramachandran Central Metro,புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ,Ashok Nagar - P2 - L1 - Inter
+93,Vadapalani,வடபழனி,Inter,onward,7,P2,L1,train,FALSE,4,Puratchi Thalaivar Dr. MG Ramachandran Central Metro,புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ,Vadapalani - P2 - L1 - Inter
+94,Arumbakkam,அரும்பாக்கம்,Inter,onward,8,P2,L1,train,FALSE,3,Puratchi Thalaivar Dr. MG Ramachandran Central Metro,புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ,Arumbakkam - P2 - L1 - Inter
+95,Puratchi Thalaivi Dr.J.Jayalalitha Koyambedu CMBT Metro,புரட்சி தலைவி டாக்டர் ஜெ. ஜெயலலிதா புறநகர் பேருந்து நிலையம் மெட்ரோ,Inter,onward,9,P2,L1,train,FALSE,3,Puratchi Thalaivar Dr. MG Ramachandran Central Metro,புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ,Puratchi Thalaivi Dr.J.Jayalalitha Koyambedu CMBT Metro - P2 - L1 - Inter
+96,Koyambedu,கோயம்பேடு,Inter,onward,10,P2,L1,train,FALSE,3,Puratchi Thalaivar Dr. MG Ramachandran Central Metro,புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ,Koyambedu - P2 - L1 - Inter
+97,Thirumangalam,திருமங்கலம்,Inter,onward,11,P2,B1,train,FALSE,4,Puratchi Thalaivar Dr. MG Ramachandran Central Metro,புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ,Thirumangalam - P2 - B1 - Inter
 98,Anna Nagar Tower,அண்ணா நகர் பூங்கா கோபுரம்,Inter,onward,12,P2,B1,train,FALSE,2,Puratchi Thalaivar Dr. MG Ramachandran Central Metro,புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ,Anna Nagar Tower - P2 - B1 - Inter
 99,Anna Nagar East,அண்ணாநகர் கிழக்கு,Inter,onward,13,P2,B1,train,FALSE,2,Puratchi Thalaivar Dr. MG Ramachandran Central Metro,புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ,Anna Nagar East - P2 - B1 - Inter
 100,Shenoy Nagar,செனாய் நகர்,Inter,onward,14,P2,B1,train,FALSE,2,Puratchi Thalaivar Dr. MG Ramachandran Central Metro,புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ,Shenoy Nagar - P2 - B1 - Inter
@@ -103,9 +103,9 @@
 102,Kilpauk,கீழ்பாக்கம்,Inter,onward,16,P2,B1,train,FALSE,2,Puratchi Thalaivar Dr. MG Ramachandran Central Metro,புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ,Kilpauk - P2 - B1 - Inter
 103,Nehru Park,நேரு பூங்கா,Inter,onward,17,P2,B1,train,FALSE,2,Puratchi Thalaivar Dr. MG Ramachandran Central Metro,புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ,Nehru Park - P2 - B1 - Inter
 104,Egmore,எழும்பூர்,Inter,onward,18,P2,B1,train,FALSE,2,Puratchi Thalaivar Dr. MG Ramachandran Central Metro,புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ,Egmore - P2 - B1 - Inter
-105,Puratchi Thalaivar Dr. MG Ramachandran Central Metro,புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ,Inter,onward,19,P1,B1,train,TRUE,2,Puratchi Thalaivar Dr. MG Ramachandran Central Metro,புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ,Puratchi Thalaivar Dr. MG Ramachandran Central Metro - P1 - B1 - Inter
-106,Puratchi Thalaivar Dr. MG Ramachandran Central Metro,புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ,Inter,return,1,P1,B1,train,TRUE,2,Chennai Airport,சென்னை விமான நிலையம்,Puratchi Thalaivar Dr. MG Ramachandran Central Metro - P1 - B1 - Inter
-107,Egmore,எழும்பூர்,Inter,return,2,P1,B1,train,FALSE,2,Chennai Airport,சென்னை விமான நிலையம்,Egmore - P1 - B1 - Inter
+105,Puratchi Thalaivar Dr. MG Ramachandran Central Metro,புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ,Inter,onward,19,P1,B1,train,TRUE,4,Puratchi Thalaivar Dr. MG Ramachandran Central Metro,புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ,Puratchi Thalaivar Dr. MG Ramachandran Central Metro - P1 - B1 - Inter
+106,Puratchi Thalaivar Dr. MG Ramachandran Central Metro,புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ,Inter,return,1,P1,B1,train,TRUE,,Chennai Airport,சென்னை விமான நிலையம்,Puratchi Thalaivar Dr. MG Ramachandran Central Metro - P1 - B1 - Inter
+107,Egmore,எழும்பூர்,Inter,return,2,P1,B1,train,FALSE,4,Chennai Airport,சென்னை விமான நிலையம்,Egmore - P1 - B1 - Inter
 108,Nehru Park,நேரு பூங்கா,Inter,return,3,P1,B1,train,FALSE,2,Chennai Airport,சென்னை விமான நிலையம்,Nehru Park - P1 - B1 - Inter
 109,Kilpauk,கீழ்பாக்கம்,Inter,return,4,P1,B1,train,FALSE,2,Chennai Airport,சென்னை விமான நிலையம்,Kilpauk - P1 - B1 - Inter
 110,Pachaiyappa's College,பச்சையப்பன் கல்லூரி,Inter,return,5,P1,B1,train,FALSE,2,Chennai Airport,சென்னை விமான நிலையம்,Pachaiyappa's College - P1 - B1 - Inter
@@ -113,15 +113,15 @@
 112,Anna Nagar East,அண்ணாநகர் கிழக்கு,Inter,return,7,P1,B1,train,FALSE,2,Chennai Airport,சென்னை விமான நிலையம்,Anna Nagar East - P1 - B1 - Inter
 113,Anna Nagar Tower,அண்ணா நகர் பூங்கா கோபுரம்,Inter,return,8,P1,B1,train,FALSE,2,Chennai Airport,சென்னை விமான நிலையம்,Anna Nagar Tower - P1 - B1 - Inter
 114,Thirumangalam,திருமங்கலம்,Inter,return,9,P1,B1,train,FALSE,2,Chennai Airport,சென்னை விமான நிலையம்,Thirumangalam - P1 - B1 - Inter
-115,Koyambedu,கோயம்பேடு,Inter,return,10,P1,L1,train,FALSE,2,Chennai Airport,சென்னை விமான நிலையம்,Koyambedu - P1 - L1 - Inter
-116,Puratchi Thalaivi Dr.J.Jayalalitha Koyambedu CMBT Metro,புரட்சி தலைவி டாக்டர் ஜெ. ஜெயலலிதா புறநகர் பேருந்து நிலையம் மெட்ரோ,Inter,return,11,P1,L1,train,FALSE,2,Chennai Airport,சென்னை விமான நிலையம்,Puratchi Thalaivi Dr.J.Jayalalitha Koyambedu CMBT Metro - P1 - L1 - Inter
-117,Arumbakkam,அரும்பாக்கம்,Inter,return,12,P1,L1,train,FALSE,2,Chennai Airport,சென்னை விமான நிலையம்,Arumbakkam - P1 - L1 - Inter
-118,Vadapalani,வடபழனி,Inter,return,13,P1,L1,train,FALSE,2,Chennai Airport,சென்னை விமான நிலையம்,Vadapalani - P1 - L1 - Inter
-119,Ashok Nagar,அசோக் நகர்,Inter,return,14,P1,L1,train,FALSE,2,Chennai Airport,சென்னை விமான நிலையம்,Ashok Nagar - P1 - L1 - Inter
-120,Ekkattuthangal,ஈக்காட்டுதாங்கல்,Inter,return,15,P1,L1,train,FALSE,2,Chennai Airport,சென்னை விமான நிலையம்,Ekkattuthangal - P1 - L1 - Inter
-121,Arignar Anna Alandur Metro,அறிஞர் அண்ணா ஆலந்தூர் மெட்ரோ,Inter,return,16,P3,L2,train,FALSE,2,Chennai Airport,சென்னை விமான நிலையம்,Arignar Anna Alandur Metro - P3 - L2 - Inter
+115,Koyambedu,கோயம்பேடு,Inter,return,10,P1,L1,train,FALSE,4,Chennai Airport,சென்னை விமான நிலையம்,Koyambedu - P1 - L1 - Inter
+116,Puratchi Thalaivi Dr.J.Jayalalitha Koyambedu CMBT Metro,புரட்சி தலைவி டாக்டர் ஜெ. ஜெயலலிதா புறநகர் பேருந்து நிலையம் மெட்ரோ,Inter,return,11,P1,L1,train,FALSE,3,Chennai Airport,சென்னை விமான நிலையம்,Puratchi Thalaivi Dr.J.Jayalalitha Koyambedu CMBT Metro - P1 - L1 - Inter
+117,Arumbakkam,அரும்பாக்கம்,Inter,return,12,P1,L1,train,FALSE,3,Chennai Airport,சென்னை விமான நிலையம்,Arumbakkam - P1 - L1 - Inter
+118,Vadapalani,வடபழனி,Inter,return,13,P1,L1,train,FALSE,3,Chennai Airport,சென்னை விமான நிலையம்,Vadapalani - P1 - L1 - Inter
+119,Ashok Nagar,அசோக் நகர்,Inter,return,14,P1,L1,train,FALSE,4,Chennai Airport,சென்னை விமான நிலையம்,Ashok Nagar - P1 - L1 - Inter
+120,Ekkattuthangal,ஈக்காட்டுதாங்கல்,Inter,return,15,P1,L1,train,FALSE,3,Chennai Airport,சென்னை விமான நிலையம்,Ekkattuthangal - P1 - L1 - Inter
+121,Arignar Anna Alandur Metro,அறிஞர் அண்ணா ஆலந்தூர் மெட்ரோ,Inter,return,16,P3,L2,train,FALSE,3,Chennai Airport,சென்னை விமான நிலையம்,Arignar Anna Alandur Metro - P3 - L2 - Inter
 122,OTA Nanganallur Road,OTA நங்கநல்லூர் ரோட்,Inter,return,17,P1,L1,train,FALSE,2,Chennai Airport,சென்னை விமான நிலையம்,OTA Nanganallur Road - P1 - L1 - Inter
-123,Meenambakkam Metro,மீனம்பாக்கம் மெட்ரோ,Inter,return,18,P1,L1,train,FALSE,2,Chennai Airport,சென்னை விமான நிலையம்,Meenambakkam Metro - P1 - L1 - Inter
+123,Meenambakkam Metro,மீனம்பாக்கம் மெட்ரோ,Inter,return,18,P1,L1,train,FALSE,5,Chennai Airport,சென்னை விமான நிலையம்,Meenambakkam Metro - P1 - L1 - Inter
 124,Chennai Airport,சென்னை விமான நிலையம்,Inter,return,19,P2,L1,train,TRUE,2,Chennai Airport,சென்னை விமான நிலையம்,Chennai Airport - P2 - L1 - Inter
 125,Arignar Anna Alandur Metro,அறிஞர் அண்ணா ஆலந்தூர் மெட்ரோ,,,,EAST,G,lift/steps/escalator,FALSE,2,,,Arignar Anna Alandur Metro - EAST
 126,Arignar Anna Alandur Metro,அறிஞர் அண்ணா ஆலந்தூர் மெட்ரோ,,,,WEST,G,lift/steps/escalator,FALSE,2,,,Arignar Anna Alandur Metro - WEST

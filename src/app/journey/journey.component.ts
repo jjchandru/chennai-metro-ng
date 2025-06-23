@@ -1,5 +1,7 @@
-import { Component, Input, OnInit, OnChanges, SimpleChanges } from '@angular/core';
+import { Component, Input, OnInit, OnChanges, SimpleChanges, Inject, PLATFORM_ID } from '@angular/core';
+import { isPlatformBrowser } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
+import { SeoService } from '../seo.service';
 
 interface MetroNode {
   id: string;
@@ -59,16 +61,17 @@ export class JourneyComponent implements OnInit, OnChanges {
   journeyPlan: JourneyPlanEntry[] = [];
   loading = false;
 
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient, @Inject(PLATFORM_ID) private platformId: Object, private seoService: SeoService) {}
 
   ngOnInit(): void {
+    this.seoService.setDefaultSEO();
     this.loadGraph();
   }
 
   ngOnChanges(changes: SimpleChanges): void {
-    if (changes['language']) {
+    /*if (changes['language']) {
       console.log('Language changed to:', this.language);
-    }
+    }*/
     // Clear journeyPlan if either fromStation or toStation is an empty string
     if (this.fromStation === '' || this.toStation === '') {
       this.journeyPlan = [];
@@ -79,18 +82,38 @@ export class JourneyComponent implements OnInit, OnChanges {
     }
   }
 
+  private updateSEOForJourney() {
+    if (isPlatformBrowser(this.platformId)) {
+      const fromStation = this.journeyPlan.find(entry => entry.isFrom);
+      const toStation = this.journeyPlan.find(entry => entry.isTo);
+      //console.log('Updating SEO for journey:', fromStation, toStation);
+      if (fromStation && toStation) {
+        this.seoService.updateForRoute(fromStation.station, toStation.station);
+      }
+    }
+  }
+
   loadGraph() {
     this.loading = true;
-    this.http.get<MetroNode[]>('assets/nodes.json').subscribe(nodes => {
-      this.nodes = nodes.filter(n => n.station && n.platform && n.level && n.id);
-      this.http.get<MetroEdge[]>('assets/edges.json').subscribe(edges => {
-        this.edges = edges.filter(e => e.from && e.to && e.mode);
-        this.loading = false;
-        if (this.fromStation && this.toStation) {
-          this.planJourney();
-        }
+    
+    // Only load data in browser, not during prerendering
+    if (isPlatformBrowser(this.platformId)) {
+      this.http.get<MetroNode[]>('assets/nodes.json').subscribe(nodes => {
+        this.nodes = nodes.filter(n => n.station && n.platform && n.level && n.id);
+        this.http.get<MetroEdge[]>('assets/edges.json').subscribe(edges => {
+          this.edges = edges.filter(e => e.from && e.to && e.mode);
+          this.loading = false;
+          if (this.fromStation && this.toStation) {
+            this.planJourney();
+          }
+        });
       });
-    });
+    } else {
+      // During prerendering, use empty arrays
+      this.nodes = [];
+      this.edges = [];
+      this.loading = false;
+    }
   }
 
   planJourney() {
@@ -102,12 +125,19 @@ export class JourneyComponent implements OnInit, OnChanges {
     // console.log('End nodes:', endNodes);
     if (!startNodes.length || !endNodes.length) {
       this.journeySteps = [];
+      this.journeyPlan = [];
       return;
     }
     // Use Dijkstra's algorithm for shortest path (by duration)
     const { path } = this.findShortestPath(startNodes, endNodes);
     //console.log('Journey path:', JSON.stringify(path));
     this.journeyPlan = this.convertToJourneyPlan(path); // Pass full JourneyStep[]
+    
+    // Update SEO after journey plan is created
+    if (this.journeyPlan.length > 0) {
+      //console.log('Journey plan created:', this.journeyPlan);
+      this.updateSEOForJourney();
+    }
   }
 
   // Helper: convert level string to number for comparison
@@ -326,10 +356,30 @@ export class JourneyComponent implements OnInit, OnChanges {
     if (transitStepsArr.length > 0) {
       const arrivalNode = prevTrainStep.node;
       if (this.language === 'ta') {
-        steps.push(`நீங்கள் <b>பிளாட்பார்ம் ${arrivalNode.platform.replace(/^P/, '')}</b> <b>தளம் ${arrivalNode.level === 'G' ? 'தரை தளம் ' : arrivalNode.level.replace(/^L|^B/, '')}</b> இல் வருகை தருவீர்கள்.`);
+        let taLevel = '';
+        if (arrivalNode.level === 'G') {
+          taLevel = 'தரை தளம்';
+        } else if (arrivalNode.level.startsWith('B')) {
+          taLevel = `கீழ் தளம் ${arrivalNode.level.substring(1)}`;
+        } else if (arrivalNode.level.startsWith('L')) {
+          taLevel = `மேல் தளம் ${arrivalNode.level.substring(1)}`;
+        } else {
+          taLevel = arrivalNode.level; // fallback
+        }
+        steps.push(`நீங்கள் <b>பிளாட்பார்ம் ${arrivalNode.platform.replace(/^P/, '')}</b> <b>${taLevel}</b> இல் வருகை தருவீர்கள்.`);
       }
       else {
-        steps.push(`You will arrive in <b>Platform ${arrivalNode.platform.replace(/^P/, '')}</b> <b>Level ${arrivalNode.level.replace(/^L/, '') === 'G' ? 'Ground Floor' : arrivalNode.level.replace(/^L/, '')}</b>.`);
+        let enLevel = '';
+        if (arrivalNode.level === 'G') {
+          enLevel = 'Ground Floor';
+        } else if (arrivalNode.level.startsWith('B')) {
+          enLevel = `Basement ${arrivalNode.level.substring(1)}`;
+        } else if (arrivalNode.level.startsWith('L')) {
+          enLevel = `Level ${arrivalNode.level.substring(1)}`;
+        } else {
+          enLevel = arrivalNode.level; // fallback
+        }
+        steps.push(`You will arrive in <b>Platform ${arrivalNode.platform.replace(/^P/, '')}</b> <b>${enLevel}</b>.`);
       }
     }
     let i = 0;
@@ -465,7 +515,7 @@ export class JourneyComponent implements OnInit, OnChanges {
 
   getLineColor(line: string): string {
     if (line === 'Blue') return '#0074D9';
-    if (line === 'Green') return '#2ECC40';
+    if (line === 'Green') return '#1e7e34';
     if (line === 'Inter') return '#00BCD4'; // Cyan for interchanges
     return '#888';
   }

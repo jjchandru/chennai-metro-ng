@@ -1,14 +1,22 @@
 .app-title {
   font-family: 'Mukta Malar', 'Latha', 'Noto Sans Tamil', sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: bold;
   color: #ffffff;
   background-color: #0066cc;
-  letter-spacing: 1px;
+  letter-spacing: 0px;
   padding: 16px 20px;
   text-align: left;
   width: 100%;
   margin: 0;
   /* margin-top: 1.5rem; */
   /* margin-bottom: 1.5rem; */
+}
+
+@media (min-width: 992px) {
+  .container {
+    /* padding-left: 2rem !important; */
+    /* padding-right: 2rem !important; */
+    /* max-width: 700px; */
+  }
 }

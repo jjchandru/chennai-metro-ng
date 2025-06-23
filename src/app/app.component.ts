@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { isPlatformBrowser } from '@angular/common';
+import { Component, Inject, OnInit, PLATFORM_ID } from '@angular/core';
 
 interface Station {
   name: string;
@@ -17,9 +18,13 @@ export class AppComponent implements OnInit {
   toStationName: string | null = null;
   selectedLanguage: 'en' | 'ta' = 'ta'; // Default to Tamil as requested
 
+  constructor(@Inject(PLATFORM_ID) private platformId: Object) {}
+
   ngOnInit(): void {
     // Load language from localStorage on app initialization
-    this.loadLanguageFromStorage();
+    if (isPlatformBrowser(this.platformId)) {
+      this.loadLanguageFromStorage();
+    }
   }
 
   private loadLanguageFromStorage(): void {
@@ -40,6 +45,9 @@ export class AppComponent implements OnInit {
   }
 
   private saveLanguageToStorage(): void {
+    if (!isPlatformBrowser(this.platformId)) {
+      return; // Do not attempt to access localStorage on server-side rendering
+    }
     try {
       localStorage.setItem('chennai-metro-language', this.selectedLanguage);
     } catch (error) {

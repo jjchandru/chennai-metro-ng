@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/chennai-metro-ng",
+            "outputPath": "dist/chennai-metro-ng/browser",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -48,6 +48,22 @@
                 }
               ],
               "outputHashing": "all"
+            },
+            "github": {
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "500kb",
+                  "maximumError": "1mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "2kb",
+                  "maximumError": "4kb"
+                }
+              ],
+              "outputHashing": "all",
+              "baseHref": "/chennai-metro-ng/"
             },
             "development": {
               "buildOptimizer": false,
@@ -99,6 +115,64 @@
               "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
             ]
           }
+        },
+        "server": {
+          "builder": "@angular-devkit/build-angular:server",
+          "options": {
+            "outputPath": "dist/chennai-metro-ng/server",
+            "main": "server.ts",
+            "tsConfig": "tsconfig.server.json"
+          },
+          "configurations": {
+            "production": {
+              "outputHashing": "media"
+            },
+            "development": {
+              "buildOptimizer": false,
+              "optimization": false,
+              "sourceMap": true,
+              "extractLicenses": false,
+              "vendorChunk": true
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "serve-ssr": {
+          "builder": "@nguniversal/builders:ssr-dev-server",
+          "configurations": {
+            "development": {
+              "browserTarget": "chennai-metro-ng:build:development",
+              "serverTarget": "chennai-metro-ng:server:development"
+            },
+            "production": {
+              "browserTarget": "chennai-metro-ng:build:production",
+              "serverTarget": "chennai-metro-ng:server:production"
+            }
+          },
+          "defaultConfiguration": "development"
+        },
+        "prerender": {
+          "builder": "@nguniversal/builders:prerender",
+          "options": {
+            "routes": [
+              "/"
+            ]
+          },
+          "configurations": {
+            "production": {
+              "browserTarget": "chennai-metro-ng:build:production",
+              "serverTarget": "chennai-metro-ng:server:production"
+            },
+            "github": {
+              "browserTarget": "chennai-metro-ng:build:github",
+              "serverTarget": "chennai-metro-ng:server:production"
+            },
+            "development": {
+              "browserTarget": "chennai-metro-ng:build:development",
+              "serverTarget": "chennai-metro-ng:server:development"
+            }
+          },
+          "defaultConfiguration": "production"
         }
       }
     }

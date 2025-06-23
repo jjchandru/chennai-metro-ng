@@ -15,7 +15,7 @@
     "mode": "train",
     "line": "Blue",
     "direction": "onward",
-    "duration": 2,
+    "duration": 5,
     "terminalStation": "Wimco Nagar Depot Metro",
     "terminalStationTamil": "விம்கோ நகர் டேப்பொ மெட்ரோ"
   },
@@ -35,7 +35,7 @@
     "mode": "train",
     "line": "Blue",
     "direction": "onward",
-    "duration": 2,
+    "duration": 3,
     "terminalStation": "Wimco Nagar Depot Metro",
     "terminalStationTamil": "விம்கோ நகர் டேப்பொ மெட்ரோ"
   },
@@ -45,7 +45,7 @@
     "mode": "train",
     "line": "Blue",
     "direction": "onward",
-    "duration": 2,
+    "duration": 3,
     "terminalStation": "Wimco Nagar Depot Metro",
     "terminalStationTamil": "விம்கோ நகர் டேப்பொ மெட்ரோ"
   },
@@ -65,7 +65,7 @@
     "mode": "train",
     "line": "Blue",
     "direction": "onward",
-    "duration": 2,
+    "duration": 3,
     "terminalStation": "Wimco Nagar Depot Metro",
     "terminalStationTamil": "விம்கோ நகர் டேப்பொ மெட்ரோ"
   },
@@ -95,7 +95,7 @@
     "mode": "train",
     "line": "Blue",
     "direction": "onward",
-    "duration": 2,
+    "duration": 4,
     "terminalStation": "Wimco Nagar Depot Metro",
     "terminalStationTamil": "விம்கோ நகர் டேப்பொ மெட்ரோ"
   },
@@ -125,7 +125,7 @@
     "mode": "train",
     "line": "Blue",
     "direction": "onward",
-    "duration": 2,
+    "duration": 4,
     "terminalStation": "Wimco Nagar Depot Metro",
     "terminalStationTamil": "விம்கோ நகர் டேப்பொ மெட்ரோ"
   },
@@ -135,7 +135,7 @@
     "mode": "train",
     "line": "Blue",
     "direction": "onward",
-    "duration": 2,
+    "duration": 3,
     "terminalStation": "Wimco Nagar Depot Metro",
     "terminalStationTamil": "விம்கோ நகர் டேப்பொ மெட்ரோ"
   },
@@ -155,7 +155,7 @@
     "mode": "train",
     "line": "Blue",
     "direction": "onward",
-    "duration": 2,
+    "duration": 3,
     "terminalStation": "Wimco Nagar Depot Metro",
     "terminalStationTamil": "விம்கோ நகர் டேப்பொ மெட்ரோ"
   },
@@ -225,7 +225,7 @@
     "mode": "train",
     "line": "Blue",
     "direction": "onward",
-    "duration": 2,
+    "duration": 3,
     "terminalStation": "Wimco Nagar Depot Metro",
     "terminalStationTamil": "விம்கோ நகர் டேப்பொ மெட்ரோ"
   },
@@ -275,7 +275,7 @@
     "mode": "train",
     "line": "Blue",
     "direction": "return",
-    "duration": 2,
+    "duration": 3,
     "terminalStation": "Chennai Airport",
     "terminalStationTamil": "சென்னை விமான நிலையம்"
   },
@@ -345,7 +345,7 @@
     "mode": "train",
     "line": "Blue",
     "direction": "return",
-    "duration": 2,
+    "duration": 3,
     "terminalStation": "Chennai Airport",
     "terminalStationTamil": "சென்னை விமான நிலையம்"
   },
@@ -365,7 +365,7 @@
     "mode": "train",
     "line": "Blue",
     "direction": "return",
-    "duration": 2,
+    "duration": 3,
     "terminalStation": "Chennai Airport",
     "terminalStationTamil": "சென்னை விமான நிலையம்"
   },
@@ -375,7 +375,7 @@
     "mode": "train",
     "line": "Blue",
     "direction": "return",
-    "duration": 2,
+    "duration": 4,
     "terminalStation": "Chennai Airport",
     "terminalStationTamil": "சென்னை விமான நிலையம்"
   },
@@ -405,7 +405,7 @@
     "mode": "train",
     "line": "Blue",
     "direction": "return",
-    "duration": 2,
+    "duration": 4,
     "terminalStation": "Chennai Airport",
     "terminalStationTamil": "சென்னை விமான நிலையம்"
   },
@@ -435,7 +435,7 @@
     "mode": "train",
     "line": "Blue",
     "direction": "return",
-    "duration": 2,
+    "duration": 3,
     "terminalStation": "Chennai Airport",
     "terminalStationTamil": "சென்னை விமான நிலையம்"
   },
@@ -455,7 +455,7 @@
     "mode": "train",
     "line": "Blue",
     "direction": "return",
-    "duration": 2,
+    "duration": 3,
     "terminalStation": "Chennai Airport",
     "terminalStationTamil": "சென்னை விமான நிலையம்"
   },
@@ -465,7 +465,7 @@
     "mode": "train",
     "line": "Blue",
     "direction": "return",
-    "duration": 2,
+    "duration": 3,
     "terminalStation": "Chennai Airport",
     "terminalStationTamil": "சென்னை விமான நிலையம்"
   },
@@ -485,7 +485,7 @@
     "mode": "train",
     "line": "Blue",
     "direction": "return",
-    "duration": 2,
+    "duration": 5,
     "terminalStation": "Chennai Airport",
     "terminalStationTamil": "சென்னை விமான நிலையம்"
   },
@@ -505,7 +505,7 @@
     "mode": "train",
     "line": "Green",
     "direction": "onward",
-    "duration": 2,
+    "duration": 3,
     "terminalStation": "Puratchi Thalaivar Dr. MG Ramachandran Central Metro",
     "terminalStationTamil": "புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ"
   },
@@ -515,7 +515,7 @@
     "mode": "train",
     "line": "Green",
     "direction": "onward",
-    "duration": 2,
+    "duration": 3,
     "terminalStation": "Puratchi Thalaivar Dr. MG Ramachandran Central Metro",
     "terminalStationTamil": "புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ"
   },
@@ -525,7 +525,7 @@
     "mode": "train",
     "line": "Green",
     "direction": "onward",
-    "duration": 2,
+    "duration": 3,
     "terminalStation": "Puratchi Thalaivar Dr. MG Ramachandran Central Metro",
     "terminalStationTamil": "புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ"
   },
@@ -535,7 +535,7 @@
     "mode": "train",
     "line": "Green",
     "direction": "onward",
-    "duration": 2,
+    "duration": 4,
     "terminalStation": "Puratchi Thalaivar Dr. MG Ramachandran Central Metro",
     "terminalStationTamil": "புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ"
   },
@@ -545,7 +545,7 @@
     "mode": "train",
     "line": "Green",
     "direction": "onward",
-    "duration": 2,
+    "duration": 3,
     "terminalStation": "Puratchi Thalaivar Dr. MG Ramachandran Central Metro",
     "terminalStationTamil": "புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ"
   },
@@ -555,7 +555,7 @@
     "mode": "train",
     "line": "Green",
     "direction": "onward",
-    "duration": 2,
+    "duration": 3,
     "terminalStation": "Puratchi Thalaivar Dr. MG Ramachandran Central Metro",
     "terminalStationTamil": "புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ"
   },
@@ -565,7 +565,7 @@
     "mode": "train",
     "line": "Green",
     "direction": "onward",
-    "duration": 2,
+    "duration": 3,
     "terminalStation": "Puratchi Thalaivar Dr. MG Ramachandran Central Metro",
     "terminalStationTamil": "புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ"
   },
@@ -575,7 +575,7 @@
     "mode": "train",
     "line": "Green",
     "direction": "onward",
-    "duration": 2,
+    "duration": 4,
     "terminalStation": "Puratchi Thalaivar Dr. MG Ramachandran Central Metro",
     "terminalStationTamil": "புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ"
   },
@@ -655,7 +655,7 @@
     "mode": "train",
     "line": "Green",
     "direction": "onward",
-    "duration": 2,
+    "duration": 4,
     "terminalStation": "Puratchi Thalaivar Dr. MG Ramachandran Central Metro",
     "terminalStationTamil": "புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ"
   },
@@ -665,7 +665,7 @@
     "mode": "train",
     "line": "Green",
     "direction": "return",
-    "duration": 2,
+    "duration": 4,
     "terminalStation": "St. Thomas Mount Metro",
     "terminalStationTamil": "பரங்கிமலை மெட்ரோ"
   },
@@ -745,7 +745,7 @@
     "mode": "train",
     "line": "Green",
     "direction": "return",
-    "duration": 2,
+    "duration": 4,
     "terminalStation": "St. Thomas Mount Metro",
     "terminalStationTamil": "பரங்கிமலை மெட்ரோ"
   },
@@ -755,7 +755,7 @@
     "mode": "train",
     "line": "Green",
     "direction": "return",
-    "duration": 2,
+    "duration": 3,
     "terminalStation": "St. Thomas Mount Metro",
     "terminalStationTamil": "பரங்கிமலை மெட்ரோ"
   },
@@ -765,7 +765,7 @@
     "mode": "train",
     "line": "Green",
     "direction": "return",
-    "duration": 2,
+    "duration": 3,
     "terminalStation": "St. Thomas Mount Metro",
     "terminalStationTamil": "பரங்கிமலை மெட்ரோ"
   },
@@ -775,7 +775,7 @@
     "mode": "train",
     "line": "Green",
     "direction": "return",
-    "duration": 2,
+    "duration": 3,
     "terminalStation": "St. Thomas Mount Metro",
     "terminalStationTamil": "பரங்கிமலை மெட்ரோ"
   },
@@ -785,7 +785,7 @@
     "mode": "train",
     "line": "Green",
     "direction": "return",
-    "duration": 2,
+    "duration": 4,
     "terminalStation": "St. Thomas Mount Metro",
     "terminalStationTamil": "பரங்கிமலை மெட்ரோ"
   },
@@ -795,7 +795,7 @@
     "mode": "train",
     "line": "Green",
     "direction": "return",
-    "duration": 2,
+    "duration": 3,
     "terminalStation": "St. Thomas Mount Metro",
     "terminalStationTamil": "பரங்கிமலை மெட்ரோ"
   },
@@ -805,7 +805,7 @@
     "mode": "train",
     "line": "Green",
     "direction": "return",
-    "duration": 2,
+    "duration": 3,
     "terminalStation": "St. Thomas Mount Metro",
     "terminalStationTamil": "பரங்கிமலை மெட்ரோ"
   },
@@ -815,7 +815,7 @@
     "mode": "train",
     "line": "Green",
     "direction": "return",
-    "duration": 2,
+    "duration": 3,
     "terminalStation": "St. Thomas Mount Metro",
     "terminalStationTamil": "பரங்கிமலை மெட்ரோ"
   },
@@ -835,7 +835,7 @@
     "mode": "train",
     "line": "Inter",
     "direction": "onward",
-    "duration": 2,
+    "duration": 5,
     "terminalStation": "Puratchi Thalaivar Dr. MG Ramachandran Central Metro",
     "terminalStationTamil": "புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ"
   },
@@ -855,7 +855,7 @@
     "mode": "train",
     "line": "Inter",
     "direction": "onward",
-    "duration": 2,
+    "duration": 3,
     "terminalStation": "Puratchi Thalaivar Dr. MG Ramachandran Central Metro",
     "terminalStationTamil": "புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ"
   },
@@ -865,7 +865,7 @@
     "mode": "train",
     "line": "Inter",
     "direction": "onward",
-    "duration": 2,
+    "duration": 3,
     "terminalStation": "Puratchi Thalaivar Dr. MG Ramachandran Central Metro",
     "terminalStationTamil": "புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ"
   },
@@ -875,7 +875,7 @@
     "mode": "train",
     "line": "Inter",
     "direction": "onward",
-    "duration": 2,
+    "duration": 4,
     "terminalStation": "Puratchi Thalaivar Dr. MG Ramachandran Central Metro",
     "terminalStationTamil": "புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ"
   },
@@ -885,7 +885,7 @@
     "mode": "train",
     "line": "Inter",
     "direction": "onward",
-    "duration": 2,
+    "duration": 3,
     "terminalStation": "Puratchi Thalaivar Dr. MG Ramachandran Central Metro",
     "terminalStationTamil": "புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ"
   },
@@ -895,7 +895,7 @@
     "mode": "train",
     "line": "Inter",
     "direction": "onward",
-    "duration": 2,
+    "duration": 3,
     "terminalStation": "Puratchi Thalaivar Dr. MG Ramachandran Central Metro",
     "terminalStationTamil": "புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ"
   },
@@ -905,7 +905,7 @@
     "mode": "train",
     "line": "Inter",
     "direction": "onward",
-    "duration": 2,
+    "duration": 3,
     "terminalStation": "Puratchi Thalaivar Dr. MG Ramachandran Central Metro",
     "terminalStationTamil": "புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ"
   },
@@ -915,7 +915,7 @@
     "mode": "train",
     "line": "Inter",
     "direction": "onward",
-    "duration": 2,
+    "duration": 4,
     "terminalStation": "Puratchi Thalaivar Dr. MG Ramachandran Central Metro",
     "terminalStationTamil": "புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ"
   },
@@ -995,7 +995,7 @@
     "mode": "train",
     "line": "Inter",
     "direction": "onward",
-    "duration": 2,
+    "duration": 4,
     "terminalStation": "Puratchi Thalaivar Dr. MG Ramachandran Central Metro",
     "terminalStationTamil": "புரட்சி தலைவர் டாக்டர் எம்ஜி ராமசந்திரன் சென்ட்ரல் மெட்ரோ"
   },
@@ -1005,7 +1005,7 @@
     "mode": "train",
     "line": "Inter",
     "direction": "return",
-    "duration": 2,
+    "duration": 4,
     "terminalStation": "Chennai Airport",
     "terminalStationTamil": "சென்னை விமான நிலையம்"
   },
@@ -1085,7 +1085,7 @@
     "mode": "train",
     "line": "Inter",
     "direction": "return",
-    "duration": 2,
+    "duration": 4,
     "terminalStation": "Chennai Airport",
     "terminalStationTamil": "சென்னை விமான நிலையம்"
   },
@@ -1095,7 +1095,7 @@
     "mode": "train",
     "line": "Inter",
     "direction": "return",
-    "duration": 2,
+    "duration": 3,
     "terminalStation": "Chennai Airport",
     "terminalStationTamil": "சென்னை விமான நிலையம்"
   },
@@ -1105,7 +1105,7 @@
     "mode": "train",
     "line": "Inter",
     "direction": "return",
-    "duration": 2,
+    "duration": 3,
     "terminalStation": "Chennai Airport",
     "terminalStationTamil": "சென்னை விமான நிலையம்"
   },
@@ -1115,7 +1115,7 @@
     "mode": "train",
     "line": "Inter",
     "direction": "return",
-    "duration": 2,
+    "duration": 3,
     "terminalStation": "Chennai Airport",
     "terminalStationTamil": "சென்னை விமான நிலையம்"
   },
@@ -1125,7 +1125,7 @@
     "mode": "train",
     "line": "Inter",
     "direction": "return",
-    "duration": 2,
+    "duration": 4,
     "terminalStation": "Chennai Airport",
     "terminalStationTamil": "சென்னை விமான நிலையம்"
   },
@@ -1135,7 +1135,7 @@
     "mode": "train",
     "line": "Inter",
     "direction": "return",
-    "duration": 2,
+    "duration": 3,
     "terminalStation": "Chennai Airport",
     "terminalStationTamil": "சென்னை விமான நிலையம்"
   },
@@ -1145,7 +1145,7 @@
     "mode": "train",
     "line": "Inter",
     "direction": "return",
-    "duration": 2,
+    "duration": 3,
     "terminalStation": "Chennai Airport",
     "terminalStationTamil": "சென்னை விமான நிலையம்"
   },
@@ -1165,7 +1165,7 @@
     "mode": "train",
     "line": "Inter",
     "direction": "return",
-    "duration": 2,
+    "duration": 5,
     "terminalStation": "Chennai Airport",
     "terminalStationTamil": "சென்னை விமான நிலையம்"
   },

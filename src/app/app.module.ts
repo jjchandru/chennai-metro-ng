@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
+import { BrowserModule, Meta, Title } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 
@@ -22,7 +22,10 @@ import { JourneyComponent } from './journey/journey.component';
     FormsModule,
     HttpClientModule
   ],
-  providers: [],
+  providers: [
+    Meta,
+    Title
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
