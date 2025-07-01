@@ -12,7 +12,9 @@
     "build:ssr": "ng build && ng run chennai-metro-ng:server",
     "prerender": "ng run chennai-metro-ng:prerender",
     "build:github": "ng run chennai-metro-ng:prerender:github",
-    "deploy:github": "npm run build:github && npx angular-cli-ghpages --dir=dist/chennai-metro-ng/browser"
+    "deploy:github": "npm run build:github && npx angular-cli-ghpages --dir=dist/chennai-metro-ng/browser",
+    "build:domain": "ng run chennai-metro-ng:prerender:production-domain",
+    "deploy:domain": "npm run build:domain && npx angular-cli-ghpages --dir=dist/chennai-metro-ng/browser"
   },
   "private": true,
   "dependencies": {

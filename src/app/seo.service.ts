@@ -42,7 +42,7 @@ export class SeoService {
     
     this.meta.updateTag({ 
       property: 'og:url', 
-      content: 'https://jjchandru.github.io/chennai-metro-ng/' 
+      content: 'https://metrovazhi.in/' 
     });
   }
 
@@ -87,7 +87,7 @@ export class SeoService {
       "provider": {
         "@type": "Organization",
         "name": "MetroVazhi",
-        "url": "https://jjchandru.github.io/chennai-metro-ng/"
+        "url": "https://metrovazhi.in/"
       }
     };
 

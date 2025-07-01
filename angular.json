@@ -22,7 +22,8 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/CNAME"
             ],
             "styles": [
               "src/styles.css",
@@ -64,6 +65,22 @@
               ],
               "outputHashing": "all",
               "baseHref": "/chennai-metro-ng/"
+            },
+            "production-domain": {
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "500kb",
+                  "maximumError": "1mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "2kb",
+                  "maximumError": "4kb"
+                }
+              ],
+              "outputHashing": "all",
+              "baseHref": "/"
             },
             "development": {
               "buildOptimizer": false,
@@ -161,6 +178,10 @@
           "configurations": {
             "production": {
               "browserTarget": "chennai-metro-ng:build:production",
+              "serverTarget": "chennai-metro-ng:server:production"
+            },
+            "production-domain": {
+              "browserTarget": "chennai-metro-ng:build:production-domain",
               "serverTarget": "chennai-metro-ng:server:production"
             },
             "github": {
